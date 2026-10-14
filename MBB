@@ -1,0 +1,8934 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Komunikasi Asertif dalam Pertemanan</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+  <!-- =====================================================
+       BACKGROUND DECORATION
+  ====================================================== -->
+
+  <div class="bg-dots"></div>
+
+
+  <!-- =====================================================
+       SIDEBAR TOGGLE
+  ====================================================== -->
+
+  <button
+    class="sidebar-toggle"
+    id="sidebarToggle"
+    aria-label="Buka menu"
+    type="button"
+  >
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+
+  <!-- =====================================================
+       SIDEBAR OVERLAY
+  ====================================================== -->
+
+  <div
+    class="sidebar-overlay"
+    id="sidebarOverlay"
+  ></div>
+
+
+  <!-- =====================================================
+       SIDEBAR
+  ====================================================== -->
+
+  <aside
+    class="sidebar"
+    id="sidebar"
+  >
+
+    <div class="sidebar-header">
+
+      <div class="sidebar-brand">
+
+        <span class="sidebar-kicker">
+          BIMBINGAN KLASIKAL
+        </span>
+
+        <h2>
+          Komunikasi
+          <br>
+          Asertif
+        </h2>
+
+        <p>
+          Kelas XI
+        </p>
+
+      </div>
+
+      <button
+        class="sidebar-close"
+        id="sidebarClose"
+        type="button"
+        aria-label="Tutup menu"
+      >
+        ×
+      </button>
+
+    </div>
+
+
+    <nav class="sidebar-menu">
+
+      <div class="sidebar-group">
+
+        <span class="sidebar-group-title">
+          AWAL
+        </span>
+
+        <button class="nav-item active" data-page="home">
+          <span>⌂</span>
+          Beranda
+        </button>
+
+        <button class="nav-item" data-page="tujuan">
+          <span>◎</span>
+          Tujuan
+        </button>
+
+        <button class="nav-item" data-page="alur">
+          <span>→</span>
+          Alur Kegiatan
+        </button>
+
+        <button class="nav-item" data-page="kontrak">
+          <span>◷</span>
+          Kontrak Waktu
+        </button>
+
+        <button class="nav-item" data-page="apersepsi">
+          <span>✦</span>
+          Apersepsi
+        </button>
+
+        <button class="nav-item" data-page="icebreaking">
+          <span>⚡</span>
+          Ice Breaking
+        </button>
+
+      </div>
+
+
+      <div class="sidebar-group">
+
+        <span class="sidebar-group-title">
+          TAHAP INTI
+        </span>
+
+        <button class="nav-item" data-page="kesepakatan">
+          <span>✓</span>
+          Kesepakatan
+        </button>
+
+        <button class="nav-item" data-page="concrete">
+          <span>💬</span>
+          Experience
+        </button>
+
+        <button class="nav-item" data-page="reflective">
+          <span>◌</span>
+          Reflection
+        </button>
+
+        <button class="nav-item" data-page="materi">
+          <span>◫</span>
+          Concept
+        </button>
+
+        <button class="nav-item" data-page="minigame">
+          <span>✋</span>
+          Mini Game
+        </button>
+
+        <button class="nav-item" data-page="penting">
+          <span>!</span>
+          Kenapa Asertif?
+        </button>
+
+        <button class="nav-item" data-page="kapan">
+          <span>?</span>
+          Kapan Digunakan?
+        </button>
+
+      </div>
+
+
+      <div class="sidebar-group">
+
+        <span class="sidebar-group-title">
+          MYSTERY BOND BOX
+        </span>
+
+        <button class="nav-item" data-page="mystery">
+          <span>▣</span>
+          Mystery Box
+        </button>
+
+        <button class="nav-item" data-page="balok">
+          <span>▦</span>
+          Explore the Blocks
+        </button>
+
+        <button class="nav-item" data-page="silentbuild">
+          <span>🤫</span>
+          Silent Build
+        </button>
+
+        <button class="nav-item" data-page="topblock">
+          <span>★</span>
+          Top Block
+        </button>
+
+        <button class="nav-item" data-page="randomswitch">
+          <span>⇄</span>
+          Random Switch
+        </button>
+
+        <button class="nav-item" data-page="secretcode">
+          <span>⌁</span>
+          Secret Code
+        </button>
+
+        <button class="nav-item" data-page="unlockcase">
+          <span>⌾</span>
+          Unlock Case
+        </button>
+
+      </div>
+
+
+      <div class="sidebar-group">
+
+        <span class="sidebar-group-title">
+          PENUTUP
+        </span>
+
+        <button class="nav-item" data-page="presentasi">
+          <span>◉</span>
+          Presentasi
+        </button>
+
+        <button class="nav-item" data-page="quickcheck">
+          <span>✓</span>
+          Quick Check
+        </button>
+
+        <button class="nav-item" data-page="refleksi">
+          <span>♡</span>
+          Refleksi
+        </button>
+
+        <button class="nav-item" data-page="kesimpulan">
+          <span>≡</span>
+          Kesimpulan
+        </button>
+
+        <button class="nav-item" data-page="question">
+          <span>?</span>
+          Any Question?
+        </button>
+
+        <button class="nav-item" data-page="penutup">
+          <span>✦</span>
+          Penutup
+        </button>
+
+      </div>
+
+    </nav>
+
+
+    <div class="sidebar-footer">
+
+      <strong>
+        Mystery Bond Box
+      </strong>
+
+      <p>
+        Speak clearly.
+        <br>
+        Stay kind.
+      </p>
+
+    </div>
+
+  </aside>
+
+
+  <!-- =====================================================
+       MAIN
+  ====================================================== -->
+
+  <main class="main-content">
+
+
+    <!-- =====================================================
+         01. BERANDA
+    ====================================================== -->
+
+    <section
+      class="page active"
+      id="home"
+    >
+
+      <div class="hero-card">
+
+        <div class="hero-layout">
+
+          <div class="hero-text">
+
+            <span class="hero-badge">
+              BIMBINGAN KLASIKAL
+            </span>
+
+            <h1>
+              Komunikasi Asertif
+              <br>
+              dalam Pertemanan
+            </h1>
+
+            <p class="hero-description">
+              Belajar menyampaikan pikiran,
+              perasaan, kebutuhan, dan batas diri
+              dengan jelas tanpa menyerang orang lain.
+            </p>
+
+            <div class="hero-tagline">
+              Beda pendapat?
+              <strong>Tetap respect.</strong>
+            </div>
+
+            <p class="hero-meta">
+              Kelas XI
+              <span>•</span>
+              Guru BK: Yulia Shabrina
+            </p>
+
+            <button
+              class="btn-primary next-page"
+              data-next="tujuan"
+              type="button"
+            >
+              Mulai Layanan
+              <span>→</span>
+            </button>
+
+          </div>
+
+
+          <div class="hero-visual">
+
+            <div class="hero-blob hero-blob-one"></div>
+            <div class="hero-blob hero-blob-two"></div>
+
+            <img
+              src="assets/images/hero-friends.png"
+              alt="Ilustrasi remaja berkomunikasi"
+            >
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         02. TUJUAN
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="tujuan"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            TUJUAN LAYANAN
+          </span>
+
+          <h1 class="page-title">
+            Hari ini kita bakal belajar apa?
+          </h1>
+
+          <p class="page-subtitle">
+            Tiga hal sederhana yang akan kita lakukan bersama.
+          </p>
+
+        </div>
+
+
+        <div class="goal-grid">
+
+          <article class="goal-card">
+            <div class="goal-number">01</div>
+            <div class="goal-icon">👀</div>
+
+            <h3>
+              Kenali
+            </h3>
+
+            <p>
+              Membedakan komunikasi
+              <strong>pasif, agresif, dan asertif.</strong>
+            </p>
+          </article>
+
+
+          <article class="goal-card">
+            <div class="goal-number">02</div>
+            <div class="goal-icon">💭</div>
+
+            <h3>
+              Pahami
+            </h3>
+
+            <p>
+              Memahami cara menyampaikan
+              pikiran, perasaan, dan batas diri
+              dengan lebih jelas.
+            </p>
+          </article>
+
+
+          <article class="goal-card">
+            <div class="goal-number">03</div>
+            <div class="goal-icon">💬</div>
+
+            <h3>
+              Praktikkan
+            </h3>
+
+            <p>
+              Membuat
+              <strong>respons asertif</strong>
+              dalam situasi pertemanan.
+            </p>
+          </article>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="home">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="alur">
+            Lanjut →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         03. ALUR
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="alur"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            ALUR KEGIATAN
+          </span>
+
+          <h1 class="page-title">
+            Tahap Inti
+          </h1>
+
+          <p class="page-subtitle">
+            Kita akan belajar melalui pengalaman,
+            diskusi, materi singkat,
+            dan tantangan Mystery Bond Box.
+          </p>
+
+        </div>
+
+
+        <div class="learning-flow">
+
+          <div class="flow-step">
+            <span>01</span>
+            <strong>Experience</strong>
+            <small>Alami</small>
+          </div>
+
+          <div class="flow-line">
+            →
+          </div>
+
+          <div class="flow-step">
+            <span>02</span>
+            <strong>Reflection</strong>
+            <small>Renungkan</small>
+          </div>
+
+          <div class="flow-line">
+            →
+          </div>
+
+          <div class="flow-step">
+            <span>03</span>
+            <strong>Concept</strong>
+            <small>Pahami</small>
+          </div>
+
+          <div class="flow-line">
+            →
+          </div>
+
+          <div class="flow-step flow-step-featured">
+            <span>04</span>
+            <strong>Mystery Challenge</strong>
+            <small>Praktikkan</small>
+          </div>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="tujuan">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="kontrak">
+            Lanjut →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         04. KONTRAK WAKTU
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="kontrak"
+    >
+
+      <div class="section-card time-page">
+
+        <span class="tag">
+          KONTRAK WAKTU
+        </span>
+
+        <h1 class="page-title">
+          Our Time Today
+        </h1>
+
+        <div class="big-time">
+
+          <span class="big-time-number">
+            45
+          </span>
+
+          <span class="big-time-label">
+            MENIT
+          </span>
+
+        </div>
+
+        <p class="time-description">
+          Setiap kegiatan punya waktunya masing-masing.
+          Saat waktunya selesai, kita akan langsung lanjut
+          ke tahap berikutnya supaya semua kegiatan
+          bisa kita selesaikan bersama.
+        </p>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="alur">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="apersepsi">
+            Lanjut →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         05. APERSEPSI
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="apersepsi"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            APERSEPSI
+          </span>
+
+          <h1 class="page-title">
+            Pernah Ngalamin?
+          </h1>
+
+          <p class="page-subtitle">
+            Jawab cukup dengan
+            <strong>Pernah</strong>
+            atau
+            <strong>Tidak Pernah.</strong>
+          </p>
+
+        </div>
+
+
+        <div class="apersepsi-grid">
+
+          <article class="apersepsi-card">
+
+            <img
+              src="assets/images/apersepsi-barang.png"
+              alt="Teman memakai barang tanpa izin"
+            >
+
+            <span class="card-number">
+              01
+            </span>
+
+            <p>
+              Pernah nggak kalian mengalami
+              teman memakai barang kalian tanpa izin?
+            </p>
+
+          </article>
+
+
+          <article class="apersepsi-card">
+
+            <img
+              src="assets/images/apersepsi-ajakan.png"
+              alt="Tidak enak menolak ajakan teman"
+            >
+
+            <span class="card-number">
+              02
+            </span>
+
+            <p>
+              Pernah nggak kalian merasa
+              tidak enak menolak ajakan teman?
+            </p>
+
+          </article>
+
+
+          <article class="apersepsi-card">
+
+            <img
+              src="assets/images/apersepsi-candaan.png"
+              alt="Candaan teman membuat tidak nyaman"
+            >
+
+            <span class="card-number">
+              03
+            </span>
+
+            <p>
+              Pernah nggak kalian merasa
+              nggak nyaman karena candaan teman?
+            </p>
+
+          </article>
+
+        </div>
+
+
+        <div class="statement-card">
+
+          <span class="statement-icon">
+            ✦
+          </span>
+
+          <div>
+
+            <h3>
+              Satu hal yang perlu kita sepakati...
+            </h3>
+
+            <p>
+              Hari ini kita tidak sedang mencari siapa
+              yang paling benar atau salah.
+              Kita akan belajar bagaimana menyampaikan
+              pikiran, perasaan, atau batas diri
+              dengan jelas tanpa menyerang orang lain.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="kontrak">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="icebreaking">
+            Lanjut →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         06. ICE BREAKING
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="icebreaking"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            ICE BREAKING
+          </span>
+
+          <h1 class="page-title">
+            Gerak Kebalikan ⚡
+          </h1>
+
+          <p class="page-subtitle">
+            Dengarkan instruksi,
+            lalu lakukan gerakan kebalikannya.
+          </p>
+
+        </div>
+
+
+        <div class="movement-grid">
+
+          <div class="movement-card">
+            <span class="movement-arrow">→</span>
+            <strong>KANAN</strong>
+            <small>Gerak ke KIRI</small>
+          </div>
+
+          <div class="movement-card">
+            <span class="movement-arrow">←</span>
+            <strong>KIRI</strong>
+            <small>Gerak ke KANAN</small>
+          </div>
+
+          <div class="movement-card">
+            <span class="movement-arrow">↑</span>
+            <strong>ATAS</strong>
+            <small>DUDUK</small>
+          </div>
+
+          <div class="movement-card">
+            <span class="movement-arrow">↓</span>
+            <strong>BAWAH</strong>
+            <small>TANGAN KE ATAS</small>
+          </div>
+
+        </div>
+
+
+        <div class="quote-card">
+          “Ternyata instruksi sederhana pun bisa membuat kita
+          salah menangkap kalau tidak fokus.
+          Dalam komunikasi sehari-hari juga begitu.”
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="apersepsi">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="masukinti">
+            Selesai Ice Breaking →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         07. TRANSISI TAHAP INTI
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="masukinti"
+    >
+
+      <div class="transition-card">
+
+        <span class="tag">
+          NEXT STEP
+        </span>
+
+        <div class="transition-symbol">
+          ✦
+        </div>
+
+        <h1>
+          Ready to Start?
+        </h1>
+
+        <p>
+          Sekarang kita masuk ke tahap inti.
+        </p>
+
+        <button
+          class="btn-primary btn-large next-page"
+          data-next="kesepakatan"
+        >
+          MASUK KE TAHAP INTI →
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         08. KESEPAKATAN
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="kesepakatan"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            SEBELUM KITA MULAI
+          </span>
+
+          <h1 class="page-title">
+            Kesepakatan Kita
+          </h1>
+
+        </div>
+
+
+        <div class="agreement-grid">
+
+          <article>
+            <span>👂</span>
+            <h3>Dengarkan</h3>
+            <p>
+              Dengarkan saat teman
+              atau Guru BK berbicara.
+            </p>
+          </article>
+
+          <article>
+            <span>🤝</span>
+            <h3>Hargai</h3>
+            <p>
+              Tidak mengejek atau
+              memotong pendapat.
+            </p>
+          </article>
+
+          <article>
+            <span>💬</span>
+            <h3>Berani Berpendapat</h3>
+            <p>
+              Sampaikan pendapat
+              dengan cara yang baik.
+            </p>
+          </article>
+
+        </div>
+
+
+        <div class="group-notice">
+
+          <span>
+            🪑
+          </span>
+
+          <div>
+
+            <strong>
+              Silakan duduk sesuai kelompok
+              yang telah ditentukan.
+            </strong>
+
+            <p>
+              Pastikan setiap anggota kelompok
+              siap mengikuti kegiatan.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="masukinti">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="concrete">
+            Kami Siap →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         09. CONCRETE EXPERIENCE
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="concrete"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            CONCRETE EXPERIENCE
+          </span>
+
+          <h1 class="page-title">
+            Kalau Cuma Lewat Chat,
+            Kamu Bacanya Gimana?
+          </h1>
+
+          <p class="page-subtitle">
+            Coba rasakan dulu.
+            Belum perlu cari jawaban benar atau salah.
+          </p>
+
+        </div>
+
+
+        <div class="chat-stage">
+
+          <div class="chat-message active-chat">
+
+            <div class="chat-bubble">
+              <span class="bubble-icon">
+                💬
+              </span>
+
+              <span>
+                Yaudah, gapapa.
+              </span>
+            </div>
+
+          </div>
+
+
+          <div class="chat-message">
+
+            <div class="chat-bubble">
+              <span class="bubble-icon">
+                💬
+              </span>
+
+              <span>
+                Terserah.
+              </span>
+            </div>
+
+          </div>
+
+
+          <div class="chat-message">
+
+            <div class="chat-bubble">
+              <span class="bubble-icon">
+                💬
+              </span>
+
+              <span>
+                Oke.
+              </span>
+            </div>
+
+          </div>
+
+
+          <div class="chat-message">
+
+            <div class="chat-bubble">
+              <span class="bubble-icon">
+                💬
+              </span>
+
+              <span>
+                Nanti aja.
+              </span>
+            </div>
+
+          </div>
+
+
+          <div class="chat-message">
+
+            <div class="chat-bubble">
+              <span class="bubble-icon">
+                💬
+              </span>
+
+              <span>
+                Aku nggak ikut.
+              </span>
+            </div>
+
+          </div>
+
+
+          <div class="chat-controls">
+
+            <button
+              class="btn-secondary"
+              id="prevChat"
+              type="button"
+            >
+              ← Sebelumnya
+            </button>
+
+            <span
+              class="counter-pill"
+              id="chatCounter"
+            >
+              1 / 5
+            </span>
+
+            <button
+              class="btn-secondary"
+              id="nextChat"
+              type="button"
+            >
+              Berikutnya →
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <div class="quote-card">
+          Kadang kita merasa maksud kita sudah jelas,
+          padahal orang lain belum tentu
+          memahami hal yang sama.
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="kesepakatan">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="reflective">
+            Lanjut →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         10. REFLECTIVE OBSERVATION
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="reflective"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            REFLECTIVE OBSERVATION
+          </span>
+
+          <h1 class="page-title">
+            Think & Talk
+          </h1>
+
+          <p class="page-subtitle">
+            Diskusikan bersama kelompok
+            dan tuliskan jawabannya pada LKPD Kelompok.
+          </p>
+
+        </div>
+
+
+        <div class="mini-chat-list">
+          <span>Yaudah, gapapa.</span>
+          <span>Terserah.</span>
+          <span>Oke.</span>
+          <span>Nanti aja.</span>
+          <span>Aku nggak ikut.</span>
+        </div>
+
+
+        <div class="reflection-grid">
+
+          <article class="reflection-card">
+
+            <span class="reflection-number">
+              01
+            </span>
+
+            <p>
+              Kenapa pesan yang sama
+              bisa ditangkap berbeda
+              oleh orang yang berbeda?
+            </p>
+
+          </article>
+
+
+          <article class="reflection-card">
+
+            <span class="reflection-number">
+              02
+            </span>
+
+            <p>
+              Agar pesan lebih jelas
+              dan tidak mudah disalahartikan,
+              apa yang perlu dilakukan?
+            </p>
+
+          </article>
+
+        </div>
+
+
+        <!-- LKPD REFLECTIVE -->
+
+        <button
+          class="document-tool"
+          data-document="assets/images/lkpd-reflective.png"
+          data-document-title="LKPD Kelompok — Reflective Observation"
+          type="button"
+        >
+
+          <span class="document-tool-icon">
+            📝
+          </span>
+
+          <span class="document-tool-text">
+
+            <small>
+              LKPD KELOMPOK
+            </small>
+
+            <strong>
+              Reflective Observation
+            </strong>
+
+            <em>
+              Klik untuk melihat LKPD
+            </em>
+
+          </span>
+
+          <span class="document-tool-arrow">
+            →
+          </span>
+
+        </button>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="concrete">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="materi">
+            Lanjut ke Materi →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         11. ABSTRACT CONCEPTUALIZATION
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="materi"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            ABSTRACT CONCEPTUALIZATION
+          </span>
+
+          <h1 class="page-title">
+            Apa Itu Komunikasi Asertif?
+          </h1>
+
+        </div>
+
+
+        <div class="definition-card">
+
+          <div class="definition-mark">
+            “
+          </div>
+
+          <p>
+            Menurut <strong>Mayo Clinic</strong>,
+            komunikasi asertif adalah cara
+            menyampaikan pikiran, perasaan,
+            kebutuhan, atau pendapat secara langsung
+            dan jelas dengan tetap menghargai
+            diri sendiri dan orang lain.
+          </p>
+
+          <div class="definition-highlight">
+            Berani menyampaikan dengan
+            <strong>jelas, tegas, dan tetap menghargai.</strong>
+          </div>
+
+          <small>
+            Mayo Clinic —
+            Being Assertive: Reduce Stress, Communicate Better.
+          </small>
+
+        </div>
+
+
+        <div class="style-grid">
+
+          <article class="style-card passive-card">
+
+            <span class="style-label">
+              PASIF
+            </span>
+
+            <h3>
+              “Aku nggak menyampaikan
+              dengan jelas.”
+            </h3>
+
+            <p>
+              Cenderung diam, mengalah,
+              atau tidak mengatakan apa
+              yang sebenarnya dirasakan.
+            </p>
+
+          </article>
+
+
+          <article class="style-card aggressive-card">
+
+            <span class="style-label">
+              AGRESIF
+            </span>
+
+            <h3>
+              “Aku menyampaikan
+              dengan menyerang.”
+            </h3>
+
+            <p>
+              Menekan, menyalahkan,
+              memaksa, atau merendahkan.
+            </p>
+
+          </article>
+
+
+          <article class="style-card assertive-card">
+
+            <span class="style-label">
+              ASERTIF
+            </span>
+
+            <h3>
+              “Aku menyampaikan dengan jelas
+              dan tetap menghargai.”
+            </h3>
+
+            <p>
+              Tegas bukan berarti kasar.
+              Tegas itu jelas menyampaikan,
+              sedangkan kasar itu menyerang.
+            </p>
+
+          </article>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="reflective">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="minigame">
+            Mini Game →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         12. MINI GAME
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="minigame"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            MINI GAME
+          </span>
+
+          <h1 class="page-title">
+            Pasif, Agresif, atau Asertif?
+          </h1>
+
+          <p class="page-subtitle">
+            Jangan disebutkan dulu.
+            Tunjukkan jawaban lewat kode tangan.
+          </p>
+
+        </div>
+
+
+        <div class="hand-code-grid">
+
+          <div class="hand-code">
+            <span>☝️</span>
+            <strong>1</strong>
+            <small>Pasif</small>
+          </div>
+
+          <div class="hand-code">
+            <span>✌️</span>
+            <strong>2</strong>
+            <small>Agresif</small>
+          </div>
+
+          <div class="hand-code">
+            <span>🤟</span>
+            <strong>3</strong>
+            <small>Asertif</small>
+          </div>
+
+        </div>
+
+
+        <div class="mini-game-card">
+
+          <span
+            class="counter-pill"
+            id="miniCounter"
+          >
+            1 / 6
+          </span>
+
+          <p id="miniQuestion"></p>
+
+          <button
+            class="btn-secondary"
+            id="showMiniAnswer"
+            type="button"
+          >
+            Lihat Jawaban
+          </button>
+
+          <div id="miniAnswer"></div>
+
+          <div class="mini-controls">
+
+            <button
+              class="btn-secondary"
+              id="prevMini"
+              type="button"
+            >
+              ← Sebelumnya
+            </button>
+
+            <button
+              class="btn-primary"
+              id="nextMini"
+              type="button"
+            >
+              Berikutnya →
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="materi">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="penting">
+            Lanjut →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         13. KENAPA ASERTIF
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="penting"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            KENAPA PENTING?
+          </span>
+
+          <h1 class="page-title">
+            Kenapa Komunikasi Asertif Dibutuhkan?
+          </h1>
+
+        </div>
+
+
+        <div class="benefit-grid">
+
+          <article>
+            <span>💬</span>
+            <h3>Lebih Jelas</h3>
+            <p>
+              Orang lain lebih mudah
+              memahami apa yang kita maksud.
+            </p>
+          </article>
+
+          <article>
+            <span>🛡️</span>
+            <h3>Menjaga Batas</h3>
+            <p>
+              Bisa mengatakan tidak
+              atau menyampaikan rasa tidak nyaman
+              tanpa menyerang.
+            </p>
+          </article>
+
+          <article>
+            <span>🤝</span>
+            <h3>Menjaga Hubungan</h3>
+            <p>
+              Tetap menghargai teman
+              meskipun berbeda pendapat
+              atau keinginan.
+            </p>
+          </article>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="minigame">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="kapan">
+            Lanjut →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         14. KAPAN DIPERLUKAN
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="kapan"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            KAPAN DIPERLUKAN?
+          </span>
+
+          <h1 class="page-title">
+            Asertif Nggak Cuma Buat Debat
+          </h1>
+
+        </div>
+
+
+        <div class="situation-tags">
+
+          <span>
+            🙅 Menolak ajakan
+          </span>
+
+          <span>
+            💬 Berbeda pendapat
+          </span>
+
+          <span>
+            😕 Merasa tidak nyaman
+          </span>
+
+          <span>
+            🛡️ Menetapkan batas
+          </span>
+
+          <span>
+            🗣️ Meminta sesuatu dengan jelas
+          </span>
+
+        </div>
+
+
+        <div class="ready-card">
+
+          <small>
+            NEXT CHALLENGE
+          </small>
+
+          <h2>
+            Ready for Mystery Bond Box?
+          </h2>
+
+          <button
+            class="btn-primary btn-large next-page"
+            data-next="mystery"
+          >
+            OPEN THE MYSTERY →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         15. MYSTERY BOND BOX
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="mystery"
+    >
+
+      <div class="section-card mystery-section">
+
+        <div class="section-header">
+
+          <span class="tag">
+            ACTIVE EXPERIMENTATION
+          </span>
+
+          <h1 class="page-title">
+            What’s Inside the Mystery Bond Box?
+          </h1>
+
+          <p class="page-subtitle">
+            Tidak semua hal penting dalam sebuah hubungan
+            terlihat dari luar.
+          </p>
+
+        </div>
+
+
+        <!--
+          INTERACTIVE BOX:
+          body, tutup, shadow, glow, 6 block
+        -->
+
+        <div
+          class="mystery-scene"
+          id="mysteryScene"
+        >
+
+          <img
+            class="box-shadow-image"
+            src="assets/images/box-shadow.png"
+            alt=""
+          >
+
+
+          <div
+            class="box-object"
+            id="boxObject"
+          >
+
+            <img
+              class="box-glow-image"
+              src="assets/images/glow.png"
+              alt=""
+            >
+
+
+            <div class="flying-blocks">
+
+              <img
+                class="flying-block block-fly-1"
+                src="assets/images/block-komunikasi-jelas.png"
+                alt="Komunikasi Jelas"
+              >
+
+              <img
+                class="flying-block block-fly-2"
+                src="assets/images/block-saling-menghargai.png"
+                alt="Saling Menghargai"
+              >
+
+              <img
+                class="flying-block block-fly-3"
+                src="assets/images/block-saling-percaya.png"
+                alt="Saling Percaya"
+              >
+
+              <img
+                class="flying-block block-fly-4"
+                src="assets/images/block-tahu-batas.png"
+                alt="Tahu Batas"
+              >
+
+              <img
+                class="flying-block block-fly-5"
+                src="assets/images/block-bertanggung-jawab.png"
+                alt="Bertanggung Jawab"
+              >
+
+              <img
+                class="flying-block block-fly-6"
+                src="assets/images/block-saling-mendukung.png"
+                alt="Saling Mendukung"
+              >
+
+            </div>
+
+
+            <div class="box-inside"></div>
+
+
+            <img
+              class="box-body-image"
+              id="boxBody"
+              src="assets/images/box-body.png"
+              alt="Badan Mystery Bond Box"
+            >
+
+
+            <img
+              class="box-lid-image"
+              id="boxLid"
+              src="assets/images/box-lid.png"
+              alt="Tutup Mystery Bond Box"
+            >
+
+          </div>
+
+        </div>
+
+
+        <p class="mystery-click-hint">
+          Klik box untuk membuka ✦
+        </p>
+
+
+        <div
+          class="mystery-after-open"
+          id="mysteryAfterOpen"
+        >
+
+          <h3>
+            Now, look inside.
+          </h3>
+
+          <p>
+            <strong>
+              Every piece has a meaning.
+            </strong>
+
+            <br>
+
+            Setiap bagian punya peran
+            dalam membangun hubungan yang sehat.
+          </p>
+
+          <button
+            class="btn-primary next-page"
+            data-next="balok"
+          >
+            Explore the Pieces →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         16. EXPLORE BLOCKS
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="balok"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            EXPLORE THE PIECES
+          </span>
+
+          <h1 class="page-title">
+            Kenali Isi Balok
+          </h1>
+
+          <p class="page-subtitle">
+            Klik satu balok untuk melihat isinya.
+          </p>
+
+        </div>
+
+
+        <div class="block-grid">
+
+          <button class="block-item" data-block="komunikasi">
+            <img
+              src="assets/images/block-komunikasi-jelas.png"
+              alt="Komunikasi Jelas"
+            >
+            <span>Komunikasi Jelas</span>
+          </button>
+
+
+          <button class="block-item" data-block="menghargai">
+            <img
+              src="assets/images/block-saling-menghargai.png"
+              alt="Saling Menghargai"
+            >
+            <span>Saling Menghargai</span>
+          </button>
+
+
+          <button class="block-item" data-block="percaya">
+            <img
+              src="assets/images/block-saling-percaya.png"
+              alt="Saling Percaya"
+            >
+            <span>Saling Percaya</span>
+          </button>
+
+
+          <button class="block-item" data-block="batas">
+            <img
+              src="assets/images/block-tahu-batas.png"
+              alt="Tahu Batas"
+            >
+            <span>Tahu Batas</span>
+          </button>
+
+
+          <button class="block-item" data-block="tanggungjawab">
+            <img
+              src="assets/images/block-bertanggung-jawab.png"
+              alt="Bertanggung Jawab"
+            >
+            <span>Bertanggung Jawab</span>
+          </button>
+
+
+          <button class="block-item" data-block="mendukung">
+            <img
+              src="assets/images/block-saling-mendukung.png"
+              alt="Saling Mendukung"
+            >
+            <span>Saling Mendukung</span>
+          </button>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="mystery">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="silentbuild">
+            Mulai Tantangan →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         17. SILENT BUILD
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="silentbuild"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            MYSTERY CHALLENGE
+          </span>
+
+          <h1 class="page-title">
+            Silent Build 🤫
+          </h1>
+
+          <p class="page-subtitle">
+            Susun 6 balok menjadi pola
+            <strong>3–2–1</strong>
+            tanpa berbicara.
+          </p>
+
+        </div>
+
+
+        <!-- ATURAN -->
+
+        <button
+          class="document-tool"
+          data-document="assets/images/aturan-mystery.png"
+          data-document-title="Aturan Mystery Bond Box"
+          type="button"
+        >
+
+          <span class="document-tool-icon">
+            📋
+          </span>
+
+          <span class="document-tool-text">
+
+            <small>
+              MYSTERY BOND BOX
+            </small>
+
+            <strong>
+              Aturan Permainan
+            </strong>
+
+            <em>
+              Klik untuk melihat aturan
+            </em>
+
+          </span>
+
+          <span class="document-tool-arrow">
+            →
+          </span>
+
+        </button>
+
+
+        <div class="silent-layout">
+
+          <div class="silent-timer-card">
+
+            <span class="timer-caption">
+              SILENT BUILD
+            </span>
+
+            <div
+              class="silent-timer"
+              id="silentTimer"
+            >
+              00:30
+            </div>
+
+            <div class="timer-actions">
+
+              <button
+                class="btn-primary"
+                id="startSilentTimer"
+              >
+                ▶ Mulai
+              </button>
+
+              <button
+                class="btn-secondary"
+                id="resetSilentTimer"
+              >
+                ↻ Reset
+              </button>
+
+            </div>
+
+            <p id="silentMessage"></p>
+
+          </div>
+
+
+          <!-- FOTO BALOK ASLI -->
+
+          <div class="real-block-preview">
+
+            <span>
+              Susun seperti ini:
+            </span>
+
+            <img
+              src="assets/images/bond-blocks-6.png"
+              alt="Susunan enam balok 3 2 1"
+            >
+
+          </div>
+
+        </div>
+
+
+        <div class="silent-allowed">
+
+          <span>
+            ✋ Isyarat tangan
+          </span>
+
+          <span>
+            👉 Menunjuk
+          </span>
+
+          <span>
+            🙂 Ekspresi wajah
+          </span>
+
+          <span>
+            🧱 Menggeser balok
+          </span>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="balok">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="topblock">
+            Lanjut →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         18. TOP BLOCK
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="topblock"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            TOP BLOCK
+          </span>
+
+          <h1 class="page-title">
+            Your Top Block
+          </h1>
+
+          <p class="page-subtitle">
+            Balok yang berada paling atas
+            menjadi <strong>Top Block</strong>
+            kelompok kalian.
+          </p>
+
+        </div>
+
+
+        <div class="top-block-visual">
+
+          <img
+            src="assets/images/bond-blocks-6.png"
+            alt="Susunan enam balok dengan Top Block"
+          >
+
+          <div class="top-block-marker">
+            <span>★</span>
+            TOP BLOCK
+          </div>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="silentbuild">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="randomswitch">
+            Random Switch →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         19. RANDOM SWITCH
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="randomswitch"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            RANDOM SWITCH
+          </span>
+
+          <h1 class="page-title">
+            Tukar Top Block 🔀
+          </h1>
+
+          <p class="page-subtitle">
+            Klik tombol untuk mengacak pasangan kelompok.
+          </p>
+
+        </div>
+
+
+        <div class="random-card">
+
+          <button
+            class="btn-primary btn-large"
+            id="randomizeGroups"
+          >
+            RANDOMIZE GROUPS 🎲
+          </button>
+
+          <div
+            class="pair-result"
+            id="pairResult"
+          >
+
+            <div>
+              Kelompok ? ↔ Kelompok ?
+            </div>
+
+            <div>
+              Kelompok ? ↔ Kelompok ?
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="quote-card">
+          Tukarkan
+          <strong>Top Block saja</strong>
+          dengan pasangan kelompok kalian.
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="topblock">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="secretcode">
+            Sudah Bertukar →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         20. SECRET CODE
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="secretcode"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            SECRET CODE
+          </span>
+
+          <h1 class="page-title">
+            Find the Secret Code 🔐
+          </h1>
+
+          <p class="page-subtitle">
+            Lihat kode Mystery Case
+            pada balok yang kalian terima.
+          </p>
+
+        </div>
+
+
+        <div class="secret-steps">
+
+          <article>
+            <span>1</span>
+            <p>
+              Satu perwakilan kelompok
+              maju membawa balok.
+            </p>
+          </article>
+
+          <article>
+            <span>2</span>
+            <p>
+              Tunjukkan kode Mystery Case
+              kepada Guru BK.
+            </p>
+          </article>
+
+          <article>
+            <span>3</span>
+            <p>
+              Jangan sebutkan
+              kodenya dengan keras.
+            </p>
+          </article>
+
+        </div>
+
+
+        <div class="secret-note">
+          🔐 Keep the code secret.
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="randomswitch">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="unlockcase">
+            Unlock Case →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         21. UNLOCK MYSTERY CASE
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="unlockcase"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            UNLOCK MYSTERY CASE
+          </span>
+
+          <h1 class="page-title">
+            4 Groups. 4 Challenges.
+          </h1>
+
+          <p class="page-subtitle">
+            Masukkan kode satu per satu.
+            Kasus akan terbuka sesuai kode
+            yang diperoleh kelompok.
+          </p>
+
+        </div>
+
+
+        <div class="unlock-control">
+
+          <div class="unlock-field">
+
+            <label for="groupSelect">
+              Kelompok
+            </label>
+
+            <select id="groupSelect">
+
+              <option value="1">
+                Kelompok 1
+              </option>
+
+              <option value="2">
+                Kelompok 2
+              </option>
+
+              <option value="3">
+                Kelompok 3
+              </option>
+
+              <option value="4">
+                Kelompok 4
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <div class="unlock-field">
+
+            <label for="caseCode">
+              Mystery Code
+            </label>
+
+            <input
+              type="text"
+              id="caseCode"
+              placeholder="MB-01"
+              maxlength="5"
+              autocomplete="off"
+            >
+
+          </div>
+
+
+          <button
+            class="btn-primary"
+            id="unlockCaseButton"
+          >
+            UNLOCK CASE 🔓
+          </button>
+
+        </div>
+
+
+        <p
+          class="code-error"
+          id="codeError"
+        ></p>
+
+
+        <div class="case-grid">
+
+
+          <!-- GROUP 1 -->
+
+          <article
+            class="case-slot"
+            data-group="1"
+          >
+
+            <div class="case-locked">
+
+              <span class="case-lock">
+                🔒
+              </span>
+
+              <strong>
+                GROUP 1
+              </strong>
+
+              <small>
+                Waiting Code
+              </small>
+
+            </div>
+
+            <div class="case-content"></div>
+
+          </article>
+
+
+          <!-- GROUP 2 -->
+
+          <article
+            class="case-slot"
+            data-group="2"
+          >
+
+            <div class="case-locked">
+
+              <span class="case-lock">
+                🔒
+              </span>
+
+              <strong>
+                GROUP 2
+              </strong>
+
+              <small>
+                Waiting Code
+              </small>
+
+            </div>
+
+            <div class="case-content"></div>
+
+          </article>
+
+
+          <!-- GROUP 3 -->
+
+          <article
+            class="case-slot"
+            data-group="3"
+          >
+
+            <div class="case-locked">
+
+              <span class="case-lock">
+                🔒
+              </span>
+
+              <strong>
+                GROUP 3
+              </strong>
+
+              <small>
+                Waiting Code
+              </small>
+
+            </div>
+
+            <div class="case-content"></div>
+
+          </article>
+
+
+          <!-- GROUP 4 -->
+
+          <article
+            class="case-slot"
+            data-group="4"
+          >
+
+            <div class="case-locked">
+
+              <span class="case-lock">
+                🔒
+              </span>
+
+              <strong>
+                GROUP 4
+              </strong>
+
+              <small>
+                Waiting Code
+              </small>
+
+            </div>
+
+            <div class="case-content"></div>
+
+          </article>
+
+        </div>
+
+
+        <!-- LKPD MYSTERY -->
+
+        <button
+          class="document-tool"
+          data-document="assets/images/lkpd-mystery.png"
+          data-document-title="LKPD Kelompok — Mystery Bond Box"
+          type="button"
+        >
+
+          <span class="document-tool-icon">
+            📝
+          </span>
+
+          <span class="document-tool-text">
+
+            <small>
+              LKPD KELOMPOK
+            </small>
+
+            <strong>
+              Mystery Bond Box
+            </strong>
+
+            <em>
+              Klik untuk melihat LKPD
+            </em>
+
+          </span>
+
+          <span class="document-tool-arrow">
+            →
+          </span>
+
+        </button>
+
+
+        <div class="discussion-reminder">
+
+          <strong>
+            Diskusikan:
+          </strong>
+
+          <ol>
+            <li>
+              Apa masalah utama dalam kasus kalian?
+            </li>
+
+            <li>
+              Apa respons asertif yang bisa disampaikan?
+            </li>
+
+            <li>
+              Apa hubungan kasus tersebut
+              dengan balok yang kalian pegang?
+            </li>
+          </ol>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="secretcode">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="presentasi">
+            Selesai Diskusi →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         22. PRESENTASI
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="presentasi"
+    >
+
+      <div class="section-card presentation-page">
+
+        <span class="tag">
+          SHARE YOUR ANSWER
+        </span>
+
+        <h1 class="page-title">
+          Ready to Share? 🎤
+        </h1>
+
+        <p class="page-subtitle">
+          Setiap kelompok berdiri
+          di tempat masing-masing
+          dan menyampaikan hasil diskusi
+          secara singkat.
+        </p>
+
+
+        <div class="presentation-groups">
+
+          <span>
+            GROUP 1
+          </span>
+
+          <span>
+            GROUP 2
+          </span>
+
+          <span>
+            GROUP 3
+          </span>
+
+          <span>
+            GROUP 4
+          </span>
+
+        </div>
+
+
+        <div class="share-note">
+          Main problem
+          <span>•</span>
+          Assertive response
+          <span>•</span>
+          Your block
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="unlockcase">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="quickcheck">
+            Lanjut ke Evaluasi →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         23. QUICK CHECK
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="quickcheck"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            QUICK CHECK
+          </span>
+
+          <h1 class="page-title">
+            Cek Cepat
+          </h1>
+
+          <p class="page-subtitle">
+            Pilih respons yang paling asertif.
+          </p>
+
+        </div>
+
+
+        <div class="quiz-card">
+
+          <span
+            class="counter-pill"
+            id="quizCounter"
+          >
+            1 / 3
+          </span>
+
+          <p
+            class="quiz-question"
+            id="quizQuestion"
+          ></p>
+
+          <div
+            class="quiz-options"
+            id="quizOptions"
+          ></div>
+
+          <div
+            class="quiz-feedback"
+            id="quizFeedback"
+          ></div>
+
+          <button
+            class="btn-secondary"
+            id="nextQuiz"
+          >
+            Soal Berikutnya →
+          </button>
+
+        </div>
+
+
+        <!-- EVALUASI HASIL -->
+
+        <button
+          class="document-tool"
+          data-document="assets/images/evaluasi-hasil.png"
+          data-document-title="Evaluasi Hasil Layanan"
+          type="button"
+        >
+
+          <span class="document-tool-icon">
+            ✓
+          </span>
+
+          <span class="document-tool-text">
+
+            <small>
+              EVALUASI HASIL
+            </small>
+
+            <strong>
+              Skala Likert
+            </strong>
+
+            <em>
+              Klik untuk melihat lembar evaluasi
+            </em>
+
+          </span>
+
+          <span class="document-tool-arrow">
+            →
+          </span>
+
+        </button>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="presentasi">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="refleksi">
+            Lanjut →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         24. REFLEKSI INDIVIDU
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="refleksi"
+    >
+
+      <div class="section-card">
+
+        <div class="section-header">
+
+          <span class="tag">
+            REFLEKSI INDIVIDU
+          </span>
+
+          <h1 class="page-title">
+            Take a Minute for Yourself
+          </h1>
+
+          <p class="page-subtitle">
+            Isi pada LKPD individu.
+          </p>
+
+        </div>
+
+
+        <!-- LKPD INDIVIDU -->
+
+        <button
+          class="document-tool document-tool-featured"
+          data-document="assets/images/lkpd-individu.png"
+          data-document-title="LKPD Individu"
+          type="button"
+        >
+
+          <span class="document-tool-icon">
+            ♡
+          </span>
+
+          <span class="document-tool-text">
+
+            <small>
+              PERSONAL REFLECTION
+            </small>
+
+            <strong>
+              LKPD Individu
+            </strong>
+
+            <em>
+              Klik untuk melihat lembar refleksi
+            </em>
+
+          </span>
+
+          <span class="document-tool-arrow">
+            →
+          </span>
+
+        </button>
+
+
+        <div class="reflection-grid">
+
+          <article class="reflection-card">
+
+            <span class="reflection-number">
+              01
+            </span>
+
+            <p>
+              Hari ini aku belajar bahwa...
+            </p>
+
+          </article>
+
+
+          <article class="reflection-card">
+
+            <span class="reflection-number">
+              02
+            </span>
+
+            <p>
+              Satu kalimat asertif
+              yang bisa aku gunakan adalah...
+            </p>
+
+          </article>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="quickcheck">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="kesimpulan">
+            Lanjut →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         25. KESIMPULAN
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="kesimpulan"
+    >
+
+      <div class="section-card conclusion-page">
+
+        <span class="tag">
+          KESIMPULAN
+        </span>
+
+        <h1 class="page-title">
+          What Did We Learn Today?
+        </h1>
+
+
+        <div class="student-conclusion">
+
+          <span>
+            🎤
+          </span>
+
+          <p>
+            <strong>Dua orang</strong>
+            coba bantu simpulkan
+            pembelajaran kita hari ini.
+          </p>
+
+        </div>
+
+
+        <div class="teacher-conclusion">
+
+          <small>
+            PENGUATAN GURU BK
+          </small>
+
+          <p>
+            Hari ini kita belajar bahwa menyampaikan
+            pendapat, perasaan, kebutuhan, dan batas diri
+            itu penting. Tetapi cara kita menyampaikannya
+            juga penting.
+          </p>
+
+          <strong>
+            Kita bisa tegas tanpa harus kasar,
+            dan tetap menghargai orang lain.
+          </strong>
+
+        </div>
+
+
+        <div class="page-navigation">
+
+          <button class="btn-secondary prev-page" data-prev="refleksi">
+            ← Kembali
+          </button>
+
+          <button class="btn-primary next-page" data-next="question">
+            Lanjut →
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         26. ANY QUESTION
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="question"
+    >
+
+      <div class="transition-card">
+
+        <span class="tag">
+          BEFORE WE FINISH
+        </span>
+
+        <div class="transition-symbol">
+          ?
+        </div>
+
+        <h1>
+          Any Question?
+        </h1>
+
+        <p>
+          Ada yang masih ingin ditanyakan?
+        </p>
+
+        <button
+          class="btn-primary next-page"
+          data-next="penutup"
+        >
+          Lanjut ke Penutup →
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         27. PENUTUP
+    ====================================================== -->
+
+    <section
+      class="page"
+      id="penutup"
+    >
+
+      <div class="closing-card">
+
+        <span class="tag">
+          ONE LAST THING
+        </span>
+
+        <h1>
+          Speak Clearly.
+          <br>
+          Stay Kind.
+        </h1>
+
+        <div class="closing-quote">
+          Berani menyampaikan bukan berarti kasar.
+          <br>
+          Menghargai orang lain bukan berarti
+          harus selalu mengalah.
+        </div>
+
+        <p>
+          Your voice matters.
+          <br>
+          Use it with clarity and respect.
+        </p>
+
+        <button
+          class="btn-primary"
+          id="finishButton"
+        >
+          Finish ✓
+        </button>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- =====================================================
+       MODAL BALOK
+  ====================================================== -->
+
+  <div
+    class="block-modal"
+    id="blockModal"
+  >
+
+    <div class="block-modal-panel">
+
+      <button
+        class="modal-close"
+        id="closeBlockModal"
+        aria-label="Tutup"
+      >
+        ×
+      </button>
+
+      <span class="tag">
+        EXPLORE THE BLOCK
+      </span>
+
+      <h2 id="blockModalTitle"></h2>
+
+      <p
+        class="block-modal-meaning"
+        id="blockModalMeaning"
+      ></p>
+
+
+      <div class="block-detail-grid">
+
+        <div>
+          <small>
+            CONTOH
+          </small>
+
+          <p id="blockModalExample"></p>
+        </div>
+
+
+        <div>
+          <small>
+            HINDARI
+          </small>
+
+          <p id="blockModalAvoid"></p>
+        </div>
+
+
+        <div>
+          <small>
+            REFLEKSI
+          </small>
+
+          <p id="blockModalReflection"></p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       UNIVERSAL DOCUMENT MODAL
+       Digunakan untuk:
+       - LKPD Reflective
+       - Aturan Mystery
+       - LKPD Mystery
+       - Evaluasi Hasil
+       - LKPD Individu
+  ====================================================== -->
+
+  <div
+    class="document-modal"
+    id="documentModal"
+  >
+
+    <div class="document-modal-panel">
+
+      <div class="document-modal-top">
+
+        <div>
+
+          <span>
+            ACTIVITY DOCUMENT
+          </span>
+
+          <h2 id="documentModalTitle">
+            Dokumen
+          </h2>
+
+        </div>
+
+
+        <button
+          class="modal-close"
+          id="closeDocumentModal"
+          aria-label="Tutup dokumen"
+        >
+          ×
+        </button>
+
+      </div>
+
+
+      <div class="document-viewer">
+
+        <img
+          id="documentModalImage"
+          src=""
+          alt="Dokumen kegiatan"
+        >
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       JAVASCRIPT
+  ====================================================== -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+document.addEventListener("DOMContentLoaded", function () {
+
+  /* =========================================================
+     1. BASIC PAGE NAVIGATION
+  ========================================================= */
+
+  const pages = document.querySelectorAll(".page");
+  const navItems = document.querySelectorAll(".nav-item");
+  const nextButtons = document.querySelectorAll(".next-page");
+  const prevButtons = document.querySelectorAll(".prev-page");
+
+
+  function showPage(pageId) {
+
+    const targetPage = document.getElementById(pageId);
+
+    if (!targetPage) return;
+
+
+    pages.forEach(function (page) {
+      page.classList.remove("active");
+    });
+
+
+    targetPage.classList.add("active");
+
+
+    navItems.forEach(function (item) {
+
+      item.classList.remove("active");
+
+      if (item.dataset.page === pageId) {
+        item.classList.add("active");
+      }
+
+    });
+
+
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+
+
+    closeSidebar();
+
+  }
+
+
+  nextButtons.forEach(function (button) {
+
+    button.addEventListener("click", function () {
+
+      const target = button.dataset.next;
+
+      if (target) {
+        showPage(target);
+      }
+
+    });
+
+  });
+
+
+  prevButtons.forEach(function (button) {
+
+    button.addEventListener("click", function () {
+
+      const target = button.dataset.prev;
+
+      if (target) {
+        showPage(target);
+      }
+
+    });
+
+  });
+
+
+  navItems.forEach(function (item) {
+
+    item.addEventListener("click", function () {
+
+      const target = item.dataset.page;
+
+      if (target) {
+        showPage(target);
+      }
+
+    });
+
+  });
+
+
+
+  /* =========================================================
+     2. SIDEBAR
+  ========================================================= */
+
+  const sidebar =
+    document.getElementById("sidebar");
+
+  const sidebarToggle =
+    document.getElementById("sidebarToggle");
+
+  const sidebarClose =
+    document.getElementById("sidebarClose");
+
+  const sidebarOverlay =
+    document.getElementById("sidebarOverlay");
+
+
+  function openSidebar() {
+
+    if (!sidebar) return;
+
+    sidebar.classList.add("open");
+
+    if (sidebarOverlay) {
+      sidebarOverlay.classList.add("show");
+    }
+
+    document.body.style.overflow = "hidden";
+
+  }
+
+
+  function closeSidebar() {
+
+    if (!sidebar) return;
+
+    sidebar.classList.remove("open");
+
+    if (sidebarOverlay) {
+      sidebarOverlay.classList.remove("show");
+    }
+
+    document.body.style.overflow = "";
+
+  }
+
+
+  if (sidebarToggle) {
+    sidebarToggle.addEventListener("click", openSidebar);
+  }
+
+
+  if (sidebarClose) {
+    sidebarClose.addEventListener("click", closeSidebar);
+  }
+
+
+  if (sidebarOverlay) {
+    sidebarOverlay.addEventListener("click", closeSidebar);
+  }
+
+
+
+  /* =========================================================
+     3. CONCRETE EXPERIENCE CHAT
+  ========================================================= */
+
+  const chatMessages =
+    document.querySelectorAll(".chat-message");
+
+  const prevChat =
+    document.getElementById("prevChat");
+
+  const nextChat =
+    document.getElementById("nextChat");
+
+  const chatCounter =
+    document.getElementById("chatCounter");
+
+  let currentChat = 0;
+
+
+  function updateChat() {
+
+    if (!chatMessages.length) return;
+
+
+    chatMessages.forEach(function (message, index) {
+
+      message.classList.toggle(
+        "active-chat",
+        index === currentChat
+      );
+
+    });
+
+
+    if (chatCounter) {
+
+      chatCounter.textContent =
+        `${currentChat + 1} / ${chatMessages.length}`;
+
+    }
+
+
+    if (prevChat) {
+      prevChat.disabled = currentChat === 0;
+    }
+
+
+    if (nextChat) {
+
+      nextChat.disabled =
+        currentChat === chatMessages.length - 1;
+
+    }
+
+  }
+
+
+  if (prevChat) {
+
+    prevChat.addEventListener("click", function () {
+
+      if (currentChat > 0) {
+
+        currentChat--;
+
+        updateChat();
+
+      }
+
+    });
+
+  }
+
+
+  if (nextChat) {
+
+    nextChat.addEventListener("click", function () {
+
+      if (currentChat < chatMessages.length - 1) {
+
+        currentChat++;
+
+        updateChat();
+
+      }
+
+    });
+
+  }
+
+
+  updateChat();
+
+
+
+  /* =========================================================
+     4. MINI GAME
+  ========================================================= */
+
+  const miniGameData = [
+
+    {
+      question:
+        '“Eh bentar, bagiannya siapa ngerjain apa? Biar nggak ada yang dobel atau malah kelewat.”',
+
+      answer:
+        "3 — ASERTIF"
+    },
+
+    {
+      question:
+        '“Ih, cara kamu ribet banget. Udah ikut cara aku aja.”',
+
+      answer:
+        "2 — AGRESIF"
+    },
+
+    {
+      question:
+        '“Kalau emang temen deket, harusnya nggak ada yang disembunyiin dong.”',
+
+      answer:
+        "2 — AGRESIF"
+    },
+
+    {
+      question:
+        'Teman terus memanggilmu dengan julukan yang tidak kamu sukai. Kamu merasa kesal, tetapi hanya berkata, “Hehe iya, santai kok.”',
+
+      answer:
+        "1 — PASIF"
+    },
+
+    {
+      question:
+        '“Guys, maaf ya bagian aku belum kelar. Nanti sore aku beresin terus langsung kirim ke grup.”',
+
+      answer:
+        "3 — ASERTIF"
+    },
+
+    {
+      question:
+        'Teman meminta kamu mengerjakan tugasnya juga. Kamu sebenarnya keberatan, tetapi berkata, “Yaudah sini, sekalian aku kerjain.”',
+
+      answer:
+        "1 — PASIF"
+    }
+
+  ];
+
+
+  const miniQuestion =
+    document.getElementById("miniQuestion");
+
+  const miniAnswer =
+    document.getElementById("miniAnswer");
+
+  const miniCounter =
+    document.getElementById("miniCounter");
+
+  const showMiniAnswer =
+    document.getElementById("showMiniAnswer");
+
+  const prevMini =
+    document.getElementById("prevMini");
+
+  const nextMini =
+    document.getElementById("nextMini");
+
+  let currentMini = 0;
+
+
+  function renderMiniGame() {
+
+    const item =
+      miniGameData[currentMini];
+
+
+    if (miniQuestion) {
+      miniQuestion.textContent = item.question;
+    }
+
+
+    if (miniAnswer) {
+      miniAnswer.textContent = "";
+    }
+
+
+    if (miniCounter) {
+
+      miniCounter.textContent =
+        `${currentMini + 1} / ${miniGameData.length}`;
+
+    }
+
+
+    if (prevMini) {
+      prevMini.disabled = currentMini === 0;
+    }
+
+
+    if (nextMini) {
+
+      nextMini.disabled =
+        currentMini === miniGameData.length - 1;
+
+    }
+
+  }
+
+
+  if (showMiniAnswer) {
+
+    showMiniAnswer.addEventListener("click", function () {
+
+      if (miniAnswer) {
+
+        miniAnswer.textContent =
+          miniGameData[currentMini].answer;
+
+      }
+
+    });
+
+  }
+
+
+  if (prevMini) {
+
+    prevMini.addEventListener("click", function () {
+
+      if (currentMini > 0) {
+
+        currentMini--;
+
+        renderMiniGame();
+
+      }
+
+    });
+
+  }
+
+
+  if (nextMini) {
+
+    nextMini.addEventListener("click", function () {
+
+      if (currentMini < miniGameData.length - 1) {
+
+        currentMini++;
+
+        renderMiniGame();
+
+      }
+
+    });
+
+  }
+
+
+  renderMiniGame();
+
+
+
+  /* =========================================================
+     5. BLOCK CONTENT
+  ========================================================= */
+
+  const blockData = {
+
+    komunikasi: {
+
+      title:
+        "Komunikasi Jelas",
+
+      meaning:
+        "Menyampaikan pikiran dan perasaan dengan baik serta mau mendengarkan orang lain.",
+
+      example:
+        "“Aku kurang nyaman. Bisa kita bicarakan baik-baik?”",
+
+      avoid:
+        "Menyindir, membentak, atau diam tanpa penjelasan.",
+
+      reflection:
+        "Apakah aku sudah bicara dan mendengarkan dengan baik?"
+
+    },
+
+
+    menghargai: {
+
+      title:
+        "Saling Menghargai",
+
+      meaning:
+        "Menghargai pilihan, pendapat, waktu, perasaan, dan perbedaan orang lain.",
+
+      example:
+        "“Aku berbeda pendapat, tapi aku menghargai pendapatmu.”",
+
+      avoid:
+        "Mengejek, meremehkan, atau memaksakan pendapat.",
+
+      reflection:
+        "Apakah aku tetap menghargai orang lain saat berbeda pendapat?"
+
+    },
+
+
+    percaya: {
+
+      title:
+        "Saling Percaya",
+
+      meaning:
+        "Memberikan kepercayaan tanpa terus-menerus mencurigai atau mengontrol orang lain.",
+
+      example:
+        "“Aku percaya kamu bisa menjaga tanggung jawabmu.”",
+
+      avoid:
+        "Menuduh, terlalu curiga, atau selalu mengecek.",
+
+      reflection:
+        "Apakah rasa percayaku masih memberi ruang bagi orang lain?"
+
+    },
+
+
+    batas: {
+
+      title:
+        "Tahu Batas",
+
+      meaning:
+        "Menghargai privasi, ruang pribadi, kenyamanan, dan keputusan orang lain.",
+
+      example:
+        "“Kalau kamu belum mau cerita, tidak apa-apa.”",
+
+      avoid:
+        "Memaksa, menekan, atau melanggar privasi.",
+
+      reflection:
+        "Apakah aku sudah menghargai batas dan kenyamanan orang lain?"
+
+    },
+
+
+    tanggungjawab: {
+
+      title:
+        "Bertanggung Jawab",
+
+      meaning:
+        "Berani mengakui kesalahan, menerima akibat, dan berusaha memperbaikinya.",
+
+      example:
+        "“Aku salah. Maaf, aku akan memperbaikinya.”",
+
+      avoid:
+        "Menyalahkan orang lain atau lari dari tanggung jawab.",
+
+      reflection:
+        "Apa yang bisa aku perbaiki dari sikap atau tindakanku?"
+
+    },
+
+
+    mendukung: {
+
+      title:
+        "Saling Mendukung",
+
+      meaning:
+        "Memberikan dukungan agar orang lain dapat belajar, berkembang, dan menjadi lebih baik.",
+
+      example:
+        "“Aku mendukung kamu untuk menjadi lebih baik.”",
+
+      avoid:
+        "Menjatuhkan, merendahkan, atau menghambat orang lain.",
+
+      reflection:
+        "Apakah dukunganku membantu orang lain bertumbuh?"
+
+    }
+
+  };
+
+
+  const blockItems =
+    document.querySelectorAll(".block-item");
+
+  const blockModal =
+    document.getElementById("blockModal");
+
+  const closeBlockModal =
+    document.getElementById("closeBlockModal");
+
+  const blockModalTitle =
+    document.getElementById("blockModalTitle");
+
+  const blockModalMeaning =
+    document.getElementById("blockModalMeaning");
+
+  const blockModalExample =
+    document.getElementById("blockModalExample");
+
+  const blockModalAvoid =
+    document.getElementById("blockModalAvoid");
+
+  const blockModalReflection =
+    document.getElementById("blockModalReflection");
+
+
+  blockItems.forEach(function (button) {
+
+    button.addEventListener("click", function () {
+
+      const key =
+        button.dataset.block;
+
+      const data =
+        blockData[key];
+
+      if (!data) return;
+
+
+      if (blockModalTitle) {
+        blockModalTitle.textContent = data.title;
+      }
+
+      if (blockModalMeaning) {
+        blockModalMeaning.textContent = data.meaning;
+      }
+
+      if (blockModalExample) {
+        blockModalExample.textContent = data.example;
+      }
+
+      if (blockModalAvoid) {
+        blockModalAvoid.textContent = data.avoid;
+      }
+
+      if (blockModalReflection) {
+        blockModalReflection.textContent = data.reflection;
+      }
+
+
+      if (blockModal) {
+        blockModal.classList.add("show");
+      }
+
+      document.body.style.overflow = "hidden";
+
+    });
+
+  });
+
+
+  function closeBlockPopup() {
+
+    if (blockModal) {
+      blockModal.classList.remove("show");
+    }
+
+    document.body.style.overflow = "";
+
+  }
+
+
+  if (closeBlockModal) {
+
+    closeBlockModal.addEventListener(
+      "click",
+      closeBlockPopup
+    );
+
+  }
+
+
+  if (blockModal) {
+
+    blockModal.addEventListener("click", function (event) {
+
+      if (event.target === blockModal) {
+        closeBlockPopup();
+      }
+
+    });
+
+  }
+
+
+
+  /* =========================================================
+     6. UNIVERSAL DOCUMENT MODAL
+  ========================================================= */
+
+  const documentTools =
+    document.querySelectorAll(".document-tool");
+
+  const documentModal =
+    document.getElementById("documentModal");
+
+  const closeDocumentModal =
+    document.getElementById("closeDocumentModal");
+
+  const documentModalTitle =
+    document.getElementById("documentModalTitle");
+
+  const documentModalImage =
+    document.getElementById("documentModalImage");
+
+
+  documentTools.forEach(function (button) {
+
+    button.addEventListener("click", function () {
+
+      const image =
+        button.dataset.document;
+
+      const title =
+        button.dataset.documentTitle;
+
+
+      if (documentModalImage && image) {
+        documentModalImage.src = image;
+      }
+
+
+      if (documentModalTitle) {
+
+        documentModalTitle.textContent =
+          title || "Dokumen";
+
+      }
+
+
+      if (documentModal) {
+        documentModal.classList.add("show");
+      }
+
+
+      document.body.style.overflow = "hidden";
+
+    });
+
+  });
+
+
+  function closeDocumentPopup() {
+
+    if (documentModal) {
+      documentModal.classList.remove("show");
+    }
+
+    document.body.style.overflow = "";
+
+  }
+
+
+  if (closeDocumentModal) {
+
+    closeDocumentModal.addEventListener(
+      "click",
+      closeDocumentPopup
+    );
+
+  }
+
+
+  if (documentModal) {
+
+    documentModal.addEventListener(
+      "click",
+      function (event) {
+
+        if (event.target === documentModal) {
+          closeDocumentPopup();
+        }
+
+      }
+    );
+
+  }
+
+
+
+  /* =========================================================
+     7. MYSTERY BOX
+  ========================================================= */
+
+  const mysteryScene =
+    document.getElementById("mysteryScene");
+
+  const boxObject =
+    document.getElementById("boxObject");
+
+  const boxBody =
+    document.getElementById("boxBody");
+
+  const boxLid =
+    document.getElementById("boxLid");
+
+  const mysteryAfterOpen =
+    document.getElementById("mysteryAfterOpen");
+
+  const mysteryHint =
+    document.querySelector(".mystery-click-hint");
+
+  let mysteryOpened = false;
+
+
+
+  /* ---------------------------------------------------------
+     Mouse movement / subtle 3D
+  --------------------------------------------------------- */
+
+  if (mysteryScene) {
+
+    mysteryScene.addEventListener(
+      "mousemove",
+      function (event) {
+
+        if (!boxObject) return;
+
+
+        const rect =
+          mysteryScene.getBoundingClientRect();
+
+
+        const mouseX =
+          event.clientX - rect.left;
+
+        const mouseY =
+          event.clientY - rect.top;
+
+
+        const centerX =
+          rect.width / 2;
+
+        const centerY =
+          rect.height / 2;
+
+
+        const rotateY =
+          ((mouseX - centerX) / centerX) * 4;
+
+
+        const rotateX =
+          -((mouseY - centerY) / centerY) * 3;
+
+
+        boxObject.style.transform =
+          `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+
+      }
+    );
+
+
+    mysteryScene.addEventListener(
+      "mouseleave",
+      function () {
+
+        if (!boxObject) return;
+
+
+        boxObject.style.transform =
+          "rotateX(0deg) rotateY(0deg)";
+
+      }
+    );
+
+  }
+
+
+
+  /* ---------------------------------------------------------
+     Open Mystery Box
+  --------------------------------------------------------- */
+
+  function openMysteryBox() {
+
+    if (
+      mysteryOpened ||
+      !boxObject
+    ) {
+      return;
+    }
+
+
+    mysteryOpened = true;
+
+
+    /*
+      STEP 1
+      Lid membuka + balok mulai keluar
+    */
+
+    boxObject.classList.add("opened");
+
+
+    if (mysteryHint) {
+      mysteryHint.style.opacity = "0";
+    }
+
+
+    /*
+      STEP 2
+      Setelah lid sempat membuka,
+      lid fade / menghilang.
+
+      Jadi tutup tidak menutupi
+      balok yang sedang keluar.
+    */
+
+    setTimeout(function () {
+
+      boxObject.classList.add("hide-lid");
+
+    }, 650);
+
+
+    /*
+      STEP 3
+      Teks setelah box terbuka
+    */
+
+    setTimeout(function () {
+
+      if (mysteryAfterOpen) {
+        mysteryAfterOpen.classList.add("show");
+      }
+
+    }, 1050);
+
+  }
+
+
+  if (boxBody) {
+
+    boxBody.addEventListener(
+      "click",
+      openMysteryBox
+    );
+
+  }
+
+
+  if (boxLid) {
+
+    boxLid.addEventListener(
+      "click",
+      openMysteryBox
+    );
+
+  }
+
+
+
+  /* =========================================================
+     8. SILENT BUILD TIMER
+  ========================================================= */
+
+  const silentTimer =
+    document.getElementById("silentTimer");
+
+  const startSilentTimer =
+    document.getElementById("startSilentTimer");
+
+  const resetSilentTimer =
+    document.getElementById("resetSilentTimer");
+
+  const silentMessage =
+    document.getElementById("silentMessage");
+
+
+  let silentSeconds = 30;
+  let silentInterval = null;
+
+
+  function renderSilentTimer() {
+
+    if (!silentTimer) return;
+
+
+    const seconds =
+      String(silentSeconds)
+        .padStart(2, "0");
+
+
+    silentTimer.textContent =
+      `00:${seconds}`;
+
+  }
+
+
+  if (startSilentTimer) {
+
+    startSilentTimer.addEventListener(
+      "click",
+      function () {
+
+        if (silentInterval) return;
+
+
+        if (silentSeconds <= 0) {
+
+          silentSeconds = 30;
+
+          if (silentMessage) {
+            silentMessage.textContent = "";
+          }
+
+          renderSilentTimer();
+
+        }
+
+
+        startSilentTimer.disabled = true;
+
+
+        silentInterval =
+          setInterval(
+            function () {
+
+              silentSeconds--;
+
+              renderSilentTimer();
+
+
+              if (silentSeconds <= 0) {
+
+                clearInterval(silentInterval);
+
+                silentInterval = null;
+
+                startSilentTimer.disabled = false;
+
+
+                if (silentMessage) {
+                  silentMessage.textContent = "TIME'S UP! ✦";
+                }
+
+              }
+
+            },
+            1000
+          );
+
+      }
+    );
+
+  }
+
+
+  if (resetSilentTimer) {
+
+    resetSilentTimer.addEventListener(
+      "click",
+      function () {
+
+        clearInterval(silentInterval);
+
+        silentInterval = null;
+
+        silentSeconds = 30;
+
+
+        if (startSilentTimer) {
+          startSilentTimer.disabled = false;
+        }
+
+
+        if (silentMessage) {
+          silentMessage.textContent = "";
+        }
+
+
+        renderSilentTimer();
+
+      }
+    );
+
+  }
+
+
+  renderSilentTimer();
+
+
+
+  /* =========================================================
+     9. RANDOM SWITCH
+  ========================================================= */
+
+  const randomizeGroups =
+    document.getElementById("randomizeGroups");
+
+  const pairResult =
+    document.getElementById("pairResult");
+
+
+  function shuffleArray(array) {
+
+    const copy =
+      [...array];
+
+
+    for (
+      let i = copy.length - 1;
+      i > 0;
+      i--
+    ) {
+
+      const j =
+        Math.floor(
+          Math.random() * (i + 1)
+        );
+
+
+      [
+        copy[i],
+        copy[j]
+      ] = [
+        copy[j],
+        copy[i]
+      ];
+
+    }
+
+
+    return copy;
+
+  }
+
+
+  if (randomizeGroups) {
+
+    randomizeGroups.addEventListener(
+      "click",
+      function () {
+
+        const groups =
+          shuffleArray(
+            [1, 2, 3, 4]
+          );
+
+
+        if (pairResult) {
+
+          pairResult.innerHTML = `
+
+            <div>
+              Kelompok ${groups[0]}
+              ↔
+              Kelompok ${groups[1]}
+            </div>
+
+            <div>
+              Kelompok ${groups[2]}
+              ↔
+              Kelompok ${groups[3]}
+            </div>
+
+          `;
+
+        }
+
+      }
+    );
+
+  }
+
+
+
+  /* =========================================================
+     10. MYSTERY CASE DATA
+  ========================================================= */
+
+  const mysteryCases = {
+
+    "MB-01": {
+
+      title:
+        "Rencana yang Beda",
+
+      block:
+        "Komunikasi Jelas",
+
+      image:
+        "assets/images/case-mb01.png",
+
+      story:
+        "Dalam tugas kelompok, Naya merasa pembagian tugas masih membingungkan. Beberapa teman mengira Naya akan mengerjakan bagian presentasi, sedangkan Naya merasa tugas itu diberikan kepada orang lain. Grup mulai saling menyalahkan karena tugas belum selesai. Naya sebenarnya ingin meluruskan keadaan tanpa membuat suasana semakin panas."
+
+    },
+
+
+    "MB-02": {
+
+      title:
+        "Beda Pilihan",
+
+      block:
+        "Saling Menghargai",
+
+      image:
+        "assets/images/case-mb02.png",
+
+      story:
+        "Saat menentukan konsep acara kelas, Arga mengusulkan ide yang berbeda dari teman-temannya. Salah satu temannya berkata, “Ide kamu ribet, mending ikut pilihan kita aja.” Arga merasa pendapatnya langsung ditolak tanpa didengarkan, tetapi ia juga tidak ingin membalas dengan marah."
+
+    },
+
+
+    "MB-03": {
+
+      title:
+        "Harus Buktiin?",
+
+      block:
+        "Saling Percaya",
+
+      image:
+        "assets/images/case-mb03.png",
+
+      story:
+        "Sinta sedang sibuk dan belum sempat membalas pesan sahabatnya. Sahabatnya kemudian berkata, “Kalau kamu memang masih nganggep aku teman dekat, coba tunjukin chat kamu. Aku mau tahu kamu sebenarnya ngobrol sama siapa.” Sinta merasa tidak nyaman, tetapi takut dianggap menyembunyikan sesuatu kalau menolak."
+
+    },
+
+
+    "MB-04": {
+
+      title:
+        "Cuma Bercanda",
+
+      block:
+        "Tahu Batas",
+
+      image:
+        "assets/images/case-mb04.png",
+
+      story:
+        "Beberapa teman sering memanggil Farel dengan julukan yang menurut mereka lucu. Farel sebenarnya tidak suka dan merasa malu setiap kali julukan itu disebut di depan banyak orang. Selama ini ia hanya tersenyum supaya tidak dianggap terlalu sensitif, tetapi candaan itu terus berulang."
+
+    },
+
+
+    "MB-05": {
+
+      title:
+        "Bagian yang Belum Selesai",
+
+      block:
+        "Bertanggung Jawab",
+
+      image:
+        "assets/images/case-mb05.png",
+
+      story:
+        "Dalam tugas kelompok, Lala mendapat bagian membuat bahan presentasi. Karena lupa mengerjakannya, bagian tersebut belum selesai ketika teman-temannya sudah mengumpulkan tugas masing-masing. Lala tahu kesalahan itu membuat pekerjaan kelompok terlambat dan ia perlu menyampaikan sesuatu kepada teman-temannya."
+
+    },
+
+
+    "MB-06": {
+
+      title:
+        "Teman atau Mengerjakan Semuanya?",
+
+      block:
+        "Saling Mendukung",
+
+      image:
+        "assets/images/case-mb06.png",
+
+      story:
+        "Bima meminta bantuan kepada Raka untuk memahami tugas yang menurutnya sulit. Namun, setelah dijelaskan beberapa kali, Bima malah berkata, “Udah deh, kamu kerjain aja sekalian punyaku.” Raka ingin membantu temannya, tetapi ia juga merasa mengerjakan seluruh tugas Bima bukan bentuk bantuan yang tepat."
+
+    }
+
+  };
+
+
+
+ /* =========================================================
+   11. UNLOCK CASE
+========================================================= */
+
+const groupSelect =
+  document.getElementById("groupSelect");
+
+const caseCode =
+  document.getElementById("caseCode");
+
+const unlockCaseButton =
+  document.getElementById("unlockCaseButton");
+
+const codeError =
+  document.getElementById("codeError");
+
+
+function unlockMysteryCase() {
+
+  if (
+    !groupSelect ||
+    !caseCode
+  ) {
+    return;
+  }
+
+
+  const group =
+    groupSelect.value;
+
+
+  const code =
+    caseCode.value
+      .trim()
+      .toUpperCase();
+
+
+  const mystery =
+    mysteryCases[code];
+
+
+  if (!mystery) {
+
+    if (codeError) {
+
+      codeError.textContent =
+        "Kode belum sesuai. Coba periksa kembali.";
+
+    }
+
+    return;
+  }
+
+
+  if (codeError) {
+    codeError.textContent = "";
+  }
+
+
+  const slot =
+    document.querySelector(
+      `.case-slot[data-group="${group}"]`
+    );
+
+
+  if (!slot) return;
+
+
+  const content =
+    slot.querySelector(".case-content");
+
+
+  if (!content) return;
+
+
+  /* HANYA TAMPILKAN GAMBAR KASUS */
+
+  content.innerHTML = `
+    <img
+      src="${mystery.image}"
+      alt="${mystery.title}"
+    >
+  `;
+
+
+  slot.classList.add("unlocked");
+
+
+  caseCode.value = "";
+
+}
+
+
+/* tombol unlock */
+
+if (unlockCaseButton) {
+
+  unlockCaseButton.addEventListener(
+    "click",
+    unlockMysteryCase
+  );
+
+}
+
+
+/* tekan ENTER juga bisa unlock */
+
+if (caseCode) {
+
+  caseCode.addEventListener(
+    "keydown",
+    function (event) {
+
+      if (event.key === "Enter") {
+
+        event.preventDefault();
+
+        unlockMysteryCase();
+
+      }
+
+    }
+  );
+
+
+  /* otomatis jadi huruf besar */
+
+  caseCode.addEventListener(
+    "input",
+    function () {
+
+      this.value =
+        this.value.toUpperCase();
+
+    }
+  );
+}
+
+
+
+  /* =========================================================
+     12. QUICK CHECK
+  ========================================================= */
+
+  const quizData = [
+
+    {
+      question:
+        "Seorang teman mengajakmu pergi, tetapi kamu masih harus menyelesaikan tugas. Respons mana yang paling asertif?",
+
+      options: [
+
+        "Yaudah, aku ikut aja walaupun tugasku belum selesai.",
+
+        "Nggak! Jangan ganggu aku terus.",
+
+        "Makasih sudah ngajak, tapi aku belum bisa ikut karena harus menyelesaikan tugas."
+
+      ],
+
+      correct: 2
+    },
+
+
+    {
+      question:
+        "Teman terus memanggilmu dengan julukan yang membuatmu tidak nyaman. Respons mana yang paling asertif?",
+
+      options: [
+
+        "Aku sebenarnya kurang nyaman dipanggil seperti itu. Tolong jangan pakai julukan itu lagi, ya.",
+
+        "Diam saja supaya teman tidak tersinggung.",
+
+        "Balas memanggil dia dengan julukan yang lebih buruk."
+
+      ],
+
+      correct: 0
+    },
+
+
+    {
+      question:
+        "Dalam diskusi kelompok, pendapatmu berbeda dari teman-teman. Respons mana yang paling asertif?",
+
+      options: [
+
+        "Terserah kalian aja.",
+
+        "Aku punya pendapat berbeda. Boleh aku jelaskan dulu?",
+
+        "Pendapat kalian salah. Pokoknya pakai idenya aku."
+
+      ],
+
+      correct: 1
+    }
+
+  ];
+
+
+  const quizCounter =
+    document.getElementById("quizCounter");
+
+  const quizQuestion =
+    document.getElementById("quizQuestion");
+
+  const quizOptions =
+    document.getElementById("quizOptions");
+
+  const quizFeedback =
+    document.getElementById("quizFeedback");
+
+  const nextQuiz =
+    document.getElementById("nextQuiz");
+
+
+  let currentQuiz = 0;
+  let quizCorrect = false;
+
+
+  function renderQuiz() {
+
+    const quiz =
+      quizData[currentQuiz];
+
+
+    quizCorrect = false;
+
+
+    if (quizCounter) {
+
+      quizCounter.textContent =
+        `${currentQuiz + 1} / ${quizData.length}`;
+
+    }
+
+
+    if (quizQuestion) {
+      quizQuestion.textContent = quiz.question;
+    }
+
+
+    if (quizFeedback) {
+      quizFeedback.textContent = "";
+    }
+
+
+    if (quizOptions) {
+
+      quizOptions.innerHTML = "";
+
+
+      quiz.options.forEach(
+        function (option, index) {
+
+          const button =
+            document.createElement("button");
+
+
+          button.type = "button";
+
+          button.className = "quiz-option";
+
+          button.textContent = option;
+
+
+          button.addEventListener(
+            "click",
+            function () {
+
+              checkQuizAnswer(index);
+
+            }
+          );
+
+
+          quizOptions.appendChild(button);
+
+        }
+      );
+
+    }
+
+
+    if (nextQuiz) {
+
+      nextQuiz.disabled = true;
+
+
+      nextQuiz.textContent =
+        currentQuiz === quizData.length - 1
+          ? "Selesai ✓"
+          : "Soal Berikutnya →";
+
+    }
+
+  }
+
+
+  function checkQuizAnswer(selectedIndex) {
+
+    const quiz =
+      quizData[currentQuiz];
+
+
+    if (selectedIndex === quiz.correct) {
+
+      quizCorrect = true;
+
+
+      if (quizFeedback) {
+        quizFeedback.textContent = "NICE! ✨";
+      }
+
+
+      document
+        .querySelectorAll(".quiz-option")
+        .forEach(function (button) {
+
+          button.disabled = true;
+
+        });
+
+
+      if (nextQuiz) {
+        nextQuiz.disabled = false;
+      }
+
+    }
+
+    else {
+
+      if (quizFeedback) {
+        quizFeedback.textContent = "TRY AGAIN ↻";
+      }
+
+    }
+
+  }
+
+
+  if (nextQuiz) {
+
+    nextQuiz.addEventListener(
+      "click",
+      function () {
+
+        if (!quizCorrect) return;
+
+
+        if (currentQuiz < quizData.length - 1) {
+
+          currentQuiz++;
+
+          renderQuiz();
+
+        }
+
+        else {
+
+          showPage("refleksi");
+
+        }
+
+      }
+    );
+
+  }
+
+
+  renderQuiz();
+
+
+
+  /* =========================================================
+     13. FINISH
+  ========================================================= */
+
+  const finishButton =
+    document.getElementById("finishButton");
+
+
+  if (finishButton) {
+
+    finishButton.addEventListener(
+      "click",
+      function () {
+
+        showPage("home");
+
+      }
+    );
+
+  }
+
+
+
+  /* =========================================================
+     14. ESC KEY
+  ========================================================= */
+
+  document.addEventListener(
+    "keydown",
+    function (event) {
+
+      if (event.key !== "Escape") {
+        return;
+      }
+
+
+      closeSidebar();
+
+      closeBlockPopup();
+
+      closeDocumentPopup();
+
+    }
+  );
+
+
+
+  /* =========================================================
+     15. INITIAL STATE
+  ========================================================= */
+
+  showPage("home");
+
+});
+/* =========================================================
+   KOMUNIKASI ASERTIF DALAM PERTEMANAN
+   STYLE.CSS
+   Warm Cream + Brown • Modern • Projection Friendly
+========================================================= */
+
+
+/* =========================================================
+   1. ROOT
+========================================================= */
+
+:root {
+  --bg-main: #f8f2eb;
+  --bg-soft: #eee2d6;
+  --bg-card: #fffdf9;
+
+  --brown-900: #3d2a21;
+  --brown-800: #4a342a;
+  --brown-700: #5a4033;
+  --brown-600: #765545;
+  --brown-500: #9b735f;
+  --brown-400: #c9a48f;
+  --brown-300: #dfc6b6;
+
+  --text-main: #302621;
+  --text-soft: #73635b;
+  --white: #ffffff;
+
+  --passive: #b5a69b;
+  --aggressive: #c97861;
+  --assertive: #93a88a;
+
+  --border: rgba(90, 64, 51, 0.12);
+
+  --shadow-xs:
+    0 5px 14px rgba(69, 47, 37, 0.06);
+
+  --shadow-sm:
+    0 10px 26px rgba(69, 47, 37, 0.09);
+
+  --shadow-md:
+    0 18px 42px rgba(69, 47, 37, 0.13);
+
+  --shadow-lg:
+    0 30px 70px rgba(48, 38, 33, 0.2);
+
+  --radius-sm: 13px;
+  --radius-md: 18px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+
+  --sidebar-width: 300px;
+}
+
+
+/* =========================================================
+   2. RESET
+========================================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  font-family:
+    "Poppins",
+    "Segoe UI",
+    sans-serif;
+
+  color: var(--text-main);
+
+  background:
+    radial-gradient(
+      circle at 8% 10%,
+      rgba(223, 198, 182, 0.32),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 92% 14%,
+      rgba(201, 164, 143, 0.18),
+      transparent 22%
+    ),
+    radial-gradient(
+      circle at 85% 88%,
+      rgba(155, 115, 95, 0.12),
+      transparent 26%
+    ),
+    linear-gradient(
+      180deg,
+      #fbf7f2 0%,
+      #f6eee7 100%
+    );
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+strong {
+  font-family:
+    "Nunito",
+    "Segoe UI",
+    sans-serif;
+}
+
+
+/* =========================================================
+   3. BACKGROUND
+========================================================= */
+
+.bg-dots {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+
+  background-image:
+    radial-gradient(
+      rgba(90, 64, 51, 0.09) 1px,
+      transparent 1px
+    );
+
+  background-size: 24px 24px;
+
+  mask-image:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.28),
+      rgba(0, 0, 0, 0.02)
+    );
+}
+
+
+/* =========================================================
+   4. SIDEBAR TOGGLE
+========================================================= */
+
+.sidebar-toggle {
+  position: fixed;
+  top: 22px;
+  left: 22px;
+  z-index: 950;
+
+  width: 50px;
+  height: 50px;
+
+  border: 1px solid rgba(90, 64, 51, 0.1);
+  border-radius: 16px;
+
+  background: rgba(255, 253, 249, 0.94);
+  box-shadow: var(--shadow-sm);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  transition: 0.22s ease;
+}
+
+.sidebar-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.sidebar-toggle span {
+  width: 21px;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--brown-700);
+}
+
+
+/* =========================================================
+   5. SIDEBAR OVERLAY
+========================================================= */
+
+.sidebar-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 980;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  background: rgba(48, 38, 33, 0.28);
+  backdrop-filter: blur(3px);
+
+  transition: 0.25s ease;
+}
+
+.sidebar-overlay.show {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+
+/* =========================================================
+   6. SIDEBAR
+========================================================= */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  width: var(--sidebar-width);
+  height: 100vh;
+
+  overflow-y: auto;
+
+  padding: 20px 16px;
+
+  background: rgba(255, 253, 249, 0.97);
+  backdrop-filter: blur(16px);
+
+  border-right: 1px solid rgba(90, 64, 51, 0.09);
+
+  box-shadow:
+    20px 0 55px
+    rgba(48, 38, 33, 0.13);
+
+  transform: translateX(-105%);
+
+  transition:
+    transform 0.3s
+    cubic-bezier(
+      0.22,
+      1,
+      0.36,
+      1
+    );
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar-header {
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  gap: 12px;
+
+  padding: 18px;
+  margin-bottom: 18px;
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #f8ede4,
+      #fffdf9
+    );
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-xs);
+}
+
+.sidebar-brand {
+  min-width: 0;
+}
+
+.sidebar-kicker {
+  display: block;
+
+  margin-bottom: 6px;
+
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+
+  color: var(--brown-500);
+}
+
+.sidebar-brand h2 {
+  margin-bottom: 4px;
+
+  font-size: 22px;
+  line-height: 1.05;
+
+  color: var(--brown-800);
+}
+
+.sidebar-brand p {
+  color: var(--text-soft);
+  font-size: 12px;
+}
+
+.sidebar-close {
+  flex-shrink: 0;
+
+  width: 38px;
+  height: 38px;
+
+  display: grid;
+  place-items: center;
+
+  border: none;
+  border-radius: 50%;
+
+  background: var(--bg-soft);
+  color: var(--brown-700);
+
+  font-size: 24px;
+
+  transition: 0.2s ease;
+}
+
+.sidebar-close:hover {
+  background: var(--brown-300);
+  transform: rotate(5deg);
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.sidebar-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sidebar-group-title {
+  padding: 0 10px 4px;
+
+  color: var(--brown-500);
+
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+}
+
+.nav-item {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  gap: 11px;
+
+  padding: 11px 12px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: transparent;
+
+  color: var(--text-soft);
+
+  text-align: left;
+
+  font-size: 12.5px;
+  font-weight: 700;
+
+  transition: 0.2s ease;
+}
+
+.nav-item > span {
+  width: 24px;
+  height: 24px;
+
+  flex-shrink: 0;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 8px;
+
+  background: rgba(90, 64, 51, 0.06);
+  color: var(--brown-600);
+
+  font-size: 12px;
+}
+
+.nav-item:hover {
+  background: var(--bg-soft);
+  color: var(--brown-800);
+
+  transform: translateX(3px);
+}
+
+.nav-item.active {
+  background:
+    linear-gradient(
+      135deg,
+      var(--brown-700),
+      var(--brown-500)
+    );
+
+  color: var(--white);
+
+  box-shadow:
+    0 10px 22px
+    rgba(90, 64, 51, 0.18);
+}
+
+.nav-item.active > span {
+  background: rgba(255, 255, 255, 0.16);
+  color: var(--white);
+}
+
+.sidebar-footer {
+  margin-top: 24px;
+
+  padding: 16px;
+
+  border-radius: 18px;
+
+  background: #f5ebe2;
+
+  color: var(--text-soft);
+
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.sidebar-footer strong {
+  display: block;
+
+  margin-bottom: 3px;
+
+  color: var(--brown-700);
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: var(--brown-300);
+}
+
+
+/* =========================================================
+   7. MAIN CONTENT
+========================================================= */
+
+.main-content {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.page {
+  display: none;
+
+  width:
+    min(1180px, calc(100% - 90px));
+
+  min-height: 100vh;
+
+  margin: 0 auto;
+
+  padding: 86px 8px 52px;
+
+  position: relative;
+}
+
+.page.active {
+  display: block;
+
+  animation:
+    pageEnter
+    0.38s ease;
+}
+
+@keyframes pageEnter {
+
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+
+/* =========================================================
+   8. SECTION CARD
+========================================================= */
+
+.section-card {
+  position: relative;
+  overflow: hidden;
+
+  padding: 32px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.8);
+
+  border-radius: var(--radius-xl);
+
+  background:
+    rgba(255, 253, 249, 0.87);
+
+  backdrop-filter: blur(14px);
+
+  box-shadow: var(--shadow-md);
+}
+
+.section-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: -80px;
+  right: -80px;
+
+  width: 220px;
+  height: 220px;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(223, 198, 182, 0.34),
+      transparent 68%
+    );
+
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   9. HEADER
+========================================================= */
+
+.section-header {
+  position: relative;
+  z-index: 2;
+
+  max-width: 820px;
+
+  margin: 0 auto 30px;
+
+  text-align: center;
+}
+
+.tag {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 11px;
+
+  padding: 7px 12px;
+
+  border-radius: 999px;
+
+  background: var(--bg-soft);
+
+  color: var(--brown-600);
+
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+
+.page-title {
+  margin-bottom: 10px;
+
+  color: var(--brown-800);
+
+  font-size:
+    clamp(
+      34px,
+      4vw,
+      52px
+    );
+
+  line-height: 1.07;
+  letter-spacing: -0.02em;
+}
+
+.page-subtitle {
+  color: var(--text-soft);
+
+  line-height: 1.7;
+
+  font-size: 15px;
+}
+
+
+/* =========================================================
+   10. BUTTONS
+========================================================= */
+
+.btn-primary,
+.btn-secondary {
+  padding: 13px 22px;
+
+  border: none;
+
+  border-radius: 999px;
+
+  font-weight: 800;
+
+  transition: 0.2s ease;
+}
+
+.btn-primary {
+  color: var(--white);
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--brown-700),
+      var(--brown-500)
+    );
+
+  box-shadow:
+    0 10px 22px
+    rgba(90, 64, 51, 0.17);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 14px 28px
+    rgba(90, 64, 51, 0.23);
+}
+
+.btn-secondary {
+  color: var(--brown-700);
+
+  background: #fffaf6;
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-xs);
+}
+
+.btn-secondary:hover {
+  transform: translateY(-2px);
+
+  background: var(--bg-soft);
+}
+
+.btn-large {
+  padding: 16px 28px;
+  font-size: 15px;
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+
+/* =========================================================
+   11. PAGE NAVIGATION
+========================================================= */
+
+.page-navigation {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 14px;
+
+  margin-top: 34px;
+}
+
+
+/* =========================================================
+   12. HERO
+========================================================= */
+
+.hero-card {
+  position: relative;
+  overflow: hidden;
+
+  padding: 46px;
+
+  min-height:
+    calc(100vh - 140px);
+
+  display: grid;
+  align-items: center;
+
+  border-radius: 36px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 253, 249, 0.94),
+      rgba(239, 226, 214, 0.86)
+    );
+
+  box-shadow: var(--shadow-md);
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.85);
+}
+
+.hero-layout {
+  display: grid;
+
+  grid-template-columns:
+    1.05fr 0.95fr;
+
+  gap: 36px;
+
+  align-items: center;
+}
+
+.hero-badge {
+  display: inline-block;
+
+  margin-bottom: 14px;
+
+  padding: 8px 13px;
+
+  border-radius: 999px;
+
+  background: var(--bg-soft);
+
+  color: var(--brown-600);
+
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+}
+
+.hero-text h1 {
+  margin-bottom: 18px;
+
+  font-size:
+    clamp(
+      48px,
+      6vw,
+      76px
+    );
+
+  line-height: 1.01;
+  letter-spacing: -0.04em;
+
+  color: var(--brown-800);
+}
+
+.hero-description {
+  max-width: 610px;
+
+  color: var(--text-soft);
+
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.hero-tagline {
+  display: inline-block;
+
+  margin: 22px 0 10px;
+
+  padding: 12px 18px;
+
+  border-left:
+    5px solid
+    var(--brown-500);
+
+  border-radius: 12px;
+
+  background:
+    rgba(255, 255, 255, 0.72);
+
+  color: var(--brown-700);
+
+  font-size: 20px;
+  font-weight: 700;
+
+  box-shadow: var(--shadow-xs);
+}
+
+.hero-tagline strong {
+  color: var(--brown-500);
+}
+
+.hero-meta {
+  margin-bottom: 24px;
+
+  color: var(--text-soft);
+
+  font-size: 13px;
+}
+
+.hero-meta span {
+  padding: 0 6px;
+}
+
+.hero-visual {
+  position: relative;
+
+  min-height: 430px;
+
+  display: grid;
+  place-items: center;
+}
+
+.hero-visual img {
+  position: relative;
+  z-index: 3;
+
+  width:
+    min(520px, 100%);
+
+  object-fit: contain;
+
+  filter:
+    drop-shadow(
+      0 24px 26px
+      rgba(90, 64, 51, 0.16)
+    );
+}
+
+.hero-blob {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.hero-blob-one {
+  width: 280px;
+  height: 280px;
+
+  right: 10%;
+  top: 10%;
+
+  background:
+    rgba(201, 164, 143, 0.25);
+}
+
+.hero-blob-two {
+  width: 180px;
+  height: 180px;
+
+  left: 5%;
+  bottom: 7%;
+
+  background:
+    rgba(223, 198, 182, 0.3);
+}
+
+
+/* =========================================================
+   13. GOAL GRID
+========================================================= */
+
+.goal-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 20px;
+}
+
+.goal-card {
+  position: relative;
+
+  padding: 26px;
+
+  border-radius: 24px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #fffdf9,
+      #f8efe7
+    );
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+
+  transition: 0.2s ease;
+}
+
+.goal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.goal-number {
+  position: absolute;
+
+  top: 16px;
+  right: 18px;
+
+  color: var(--brown-300);
+
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.goal-icon {
+  width: 52px;
+  height: 52px;
+
+  display: grid;
+  place-items: center;
+
+  margin-bottom: 16px;
+
+  border-radius: 16px;
+
+  background: var(--bg-soft);
+
+  font-size: 23px;
+}
+
+.goal-card h3 {
+  margin-bottom: 8px;
+
+  color: var(--brown-800);
+}
+
+.goal-card p {
+  color: var(--text-soft);
+
+  line-height: 1.7;
+
+  font-size: 14px;
+}
+
+
+/* =========================================================
+   14. FLOW
+========================================================= */
+
+.learning-flow {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 13px;
+
+  margin: 42px auto 0;
+}
+
+.flow-step {
+  flex: 1;
+
+  min-height: 145px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  padding: 22px;
+
+  border-radius: 22px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-xs);
+}
+
+.flow-step span {
+  color: var(--brown-400);
+
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.flow-step strong {
+  margin: 6px 0 4px;
+
+  color: var(--brown-800);
+
+  font-size: 19px;
+}
+
+.flow-step small {
+  color: var(--text-soft);
+}
+
+.flow-step-featured {
+  background:
+    linear-gradient(
+      145deg,
+      #ead9cc,
+      #fffdf9
+    );
+}
+
+.flow-line {
+  color: var(--brown-400);
+  font-size: 24px;
+}
+
+
+/* =========================================================
+   15. TIME
+========================================================= */
+
+.time-page {
+  text-align: center;
+}
+
+.big-time {
+  margin: 24px auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.big-time-number {
+  font-family:
+    "Nunito",
+    sans-serif;
+
+  font-size:
+    clamp(
+      110px,
+      15vw,
+      180px
+    );
+
+  line-height: 0.88;
+
+  font-weight: 900;
+
+  color: var(--brown-800);
+}
+
+.big-time-label {
+  margin-top: 16px;
+
+  color: var(--brown-500);
+
+  font-size: 15px;
+  letter-spacing: 0.22em;
+
+  font-weight: 900;
+}
+
+.time-description {
+  max-width: 720px;
+
+  margin: 0 auto;
+
+  color: var(--text-soft);
+
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   16. APERSEPSI
+========================================================= */
+
+.apersepsi-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 20px;
+}
+
+.apersepsi-card {
+  overflow: hidden;
+
+  position: relative;
+
+  border-radius: 24px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+
+  transition: 0.2s ease;
+}
+
+.apersepsi-card:hover {
+  transform: translateY(-4px);
+}
+
+.apersepsi-card img {
+  width: 100%;
+
+  aspect-ratio:
+    16 / 10;
+
+  object-fit: cover;
+}
+
+.card-number {
+  display: inline-grid;
+
+  place-items: center;
+
+  width: 38px;
+  height: 38px;
+
+  margin: 16px 16px 8px;
+
+  border-radius: 12px;
+
+  background: var(--bg-soft);
+
+  color: var(--brown-500);
+
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.apersepsi-card p {
+  padding: 0 17px 22px;
+
+  color: var(--brown-800);
+
+  line-height: 1.65;
+
+  font-weight: 700;
+
+  font-size: 14px;
+}
+
+.statement-card {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 16px;
+
+  margin-top: 26px;
+
+  padding: 20px 22px;
+
+  border-radius: 20px;
+
+  background: #f2e6dc;
+
+  border: 1px solid var(--border);
+}
+
+.statement-icon {
+  width: 44px;
+  height: 44px;
+
+  flex-shrink: 0;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 14px;
+
+  background: var(--brown-700);
+
+  color: white;
+}
+
+.statement-card h3 {
+  margin-bottom: 5px;
+  color: var(--brown-800);
+}
+
+.statement-card p {
+  color: var(--text-soft);
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   17. ICE BREAKING
+========================================================= */
+
+.movement-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 16px;
+}
+
+.movement-card {
+  padding: 26px 16px;
+
+  text-align: center;
+
+  border-radius: 22px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.movement-arrow {
+  display: block;
+
+  margin-bottom: 9px;
+
+  color: var(--brown-500);
+
+  font-size: 48px;
+}
+
+.movement-card strong {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: var(--brown-800);
+}
+
+.movement-card small {
+  color: var(--text-soft);
+}
+
+.quote-card {
+  max-width: 900px;
+
+  margin: 24px auto 0;
+
+  padding: 18px 22px;
+
+  border-radius: 18px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #eadfd5,
+      #fffdf9
+    );
+
+  border: 1px solid var(--border);
+
+  color: var(--brown-700);
+
+  text-align: center;
+
+  line-height: 1.7;
+
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   18. TRANSITION
+========================================================= */
+
+.transition-card {
+  min-height:
+    calc(100vh - 150px);
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px;
+
+  text-align: center;
+
+  border-radius: 34px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #f1e4d8,
+      #fffdf9
+    );
+
+  box-shadow: var(--shadow-md);
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.8);
+}
+
+.transition-symbol {
+  width: 82px;
+  height: 82px;
+
+  display: grid;
+  place-items: center;
+
+  margin: 8px 0 18px;
+
+  border-radius: 26px;
+
+  background: var(--brown-700);
+
+  color: white;
+
+  font-size: 34px;
+
+  box-shadow: var(--shadow-sm);
+}
+
+.transition-card h1 {
+  margin-bottom: 10px;
+
+  color: var(--brown-800);
+
+  font-size:
+    clamp(
+      42px,
+      5vw,
+      68px
+    );
+}
+
+.transition-card p {
+  margin-bottom: 26px;
+  color: var(--text-soft);
+}
+
+
+/* =========================================================
+   19. AGREEMENT + BENEFIT
+========================================================= */
+
+.agreement-grid,
+.benefit-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 18px;
+}
+
+.agreement-grid article,
+.benefit-grid article {
+  padding: 24px;
+
+  border-radius: 22px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.agreement-grid article > span,
+.benefit-grid article > span {
+  display: block;
+
+  margin-bottom: 12px;
+
+  font-size: 30px;
+}
+
+.agreement-grid h3,
+.benefit-grid h3 {
+  margin-bottom: 7px;
+
+  color: var(--brown-800);
+}
+
+.agreement-grid p,
+.benefit-grid p {
+  color: var(--text-soft);
+
+  line-height: 1.65;
+
+  font-size: 14px;
+}
+
+.group-notice {
+  display: flex;
+
+  align-items: center;
+
+  gap: 16px;
+
+  margin-top: 24px;
+
+  padding: 18px 22px;
+
+  border-radius: 20px;
+
+  background: var(--bg-soft);
+}
+
+.group-notice > span {
+  font-size: 30px;
+}
+
+.group-notice strong {
+  color: var(--brown-800);
+}
+
+.group-notice p {
+  margin-top: 3px;
+  color: var(--text-soft);
+}
+
+
+/* =========================================================
+   20. CHAT
+========================================================= */
+
+.chat-stage {
+  max-width: 850px;
+
+  margin: 0 auto;
+
+  padding: 34px;
+
+  border-radius: 28px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #f0e4da,
+      #fffdf9
+    );
+
+  box-shadow: var(--shadow-sm);
+
+  border: 1px solid var(--border);
+}
+
+.chat-message {
+  display: none;
+
+  min-height: 210px;
+
+  place-items: center;
+}
+
+.chat-message.active-chat {
+  display: grid;
+
+  animation:
+    chatPop
+    0.28s ease;
+}
+
+@keyframes chatPop {
+
+  from {
+    opacity: 0;
+
+    transform:
+      scale(0.94)
+      translateY(7px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      scale(1)
+      translateY(0);
+  }
+
+}
+
+.chat-bubble {
+  position: relative;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  max-width: 610px;
+
+  padding: 22px 28px;
+
+  border-radius:
+    28px 28px 28px 8px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #6c4939,
+      #51362b
+    );
+
+  color: white;
+
+  box-shadow:
+    0 18px 34px
+    rgba(69, 47, 37, 0.26);
+
+  font-size:
+    clamp(
+      28px,
+      4vw,
+      44px
+    );
+
+  font-weight: 800;
+}
+
+.chat-bubble::after {
+  content: "";
+
+  position: absolute;
+
+  left: 10px;
+  bottom: -12px;
+
+  width: 24px;
+  height: 24px;
+
+  background: #51362b;
+
+  clip-path:
+    polygon(
+      0 0,
+      100% 0,
+      0 100%
+    );
+}
+
+.bubble-icon {
+  font-size: 26px;
+
+  filter:
+    grayscale(1)
+    brightness(6);
+}
+
+.chat-controls {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 16px;
+
+  margin-top: 24px;
+}
+
+.counter-pill {
+  min-width: 78px;
+
+  padding: 9px 14px;
+
+  border-radius: 999px;
+
+  background: var(--bg-soft);
+
+  color: var(--brown-600);
+
+  text-align: center;
+
+  font-size: 12px;
+  font-weight: 900;
+}
+
+
+/* =========================================================
+   21. REFLECTIVE
+========================================================= */
+
+.mini-chat-list {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 9px;
+
+  margin-bottom: 22px;
+}
+
+.mini-chat-list span {
+  padding: 8px 13px;
+
+  border-radius: 999px;
+
+  background: var(--bg-soft);
+
+  color: var(--brown-600);
+
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.reflection-grid {
+  display: grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap: 18px;
+}
+
+.reflection-card {
+  padding: 24px;
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #fffdf9,
+      #f7eee7
+    );
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.reflection-number {
+  display: grid;
+
+  place-items: center;
+
+  width: 42px;
+  height: 42px;
+
+  margin-bottom: 14px;
+
+  border-radius: 13px;
+
+  background: var(--bg-soft);
+
+  color: var(--brown-500);
+
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.reflection-card p {
+  color: var(--brown-800);
+
+  font-size: 17px;
+  font-weight: 700;
+
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   22. DOCUMENT TOOL
+========================================================= */
+
+.document-tool {
+  width: 100%;
+
+  max-width: 780px;
+
+  margin: 24px auto 0;
+
+  padding: 16px 20px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 16px;
+
+  border: 1px solid var(--border);
+
+  border-radius: 20px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #fffdf9,
+      #efe2d7
+    );
+
+  color: var(--brown-800);
+
+  box-shadow: var(--shadow-sm);
+
+  text-align: left;
+
+  transition: 0.22s ease;
+}
+
+.document-tool:hover {
+  transform: translateY(-3px);
+
+  box-shadow: var(--shadow-md);
+}
+
+.document-tool-featured {
+  background:
+    linear-gradient(
+      135deg,
+      #eee0d4,
+      #fffdf9
+    );
+}
+
+.document-tool-icon {
+  width: 52px;
+  height: 52px;
+
+  flex-shrink: 0;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 16px;
+
+  background: var(--brown-700);
+
+  color: white;
+
+  font-size: 24px;
+}
+
+.document-tool-text {
+  flex: 1;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.document-tool-text small {
+  color: var(--brown-500);
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.12em;
+}
+
+.document-tool-text strong {
+  margin: 2px 0;
+
+  color: var(--brown-800);
+
+  font-size: 17px;
+}
+
+.document-tool-text em {
+  color: var(--text-soft);
+
+  font-size: 11px;
+
+  font-style: normal;
+}
+
+.document-tool-arrow {
+  color: var(--brown-600);
+
+  font-size: 25px;
+}
+
+
+/* =========================================================
+   23. DEFINITION
+========================================================= */
+
+.definition-card {
+  position: relative;
+
+  max-width: 900px;
+
+  margin: 0 auto 26px;
+
+  padding: 28px;
+
+  border-radius: 24px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.definition-mark {
+  position: absolute;
+
+  top: 8px;
+  left: 18px;
+
+  color: var(--brown-300);
+
+  font-size: 70px;
+
+  line-height: 1;
+}
+
+.definition-card > p {
+  position: relative;
+  z-index: 2;
+
+  color: var(--text-soft);
+
+  line-height: 1.8;
+}
+
+.definition-highlight {
+  margin: 20px 0;
+
+  padding: 15px 18px;
+
+  border-radius: 15px;
+
+  background: var(--bg-soft);
+
+  color: var(--brown-700);
+
+  font-weight: 700;
+}
+
+.definition-card small {
+  color: var(--text-soft);
+
+  font-size: 11px;
+}
+
+
+/* =========================================================
+   24. STYLE CARDS
+========================================================= */
+
+.style-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 18px;
+}
+
+.style-card {
+  padding: 23px;
+
+  border-radius: 22px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.style-label {
+  display: inline-block;
+
+  margin-bottom: 10px;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.13em;
+}
+
+.style-card h3 {
+  margin-bottom: 9px;
+
+  color: var(--brown-800);
+
+  font-size: 18px;
+}
+
+.style-card p {
+  color: var(--text-soft);
+
+  line-height: 1.65;
+
+  font-size: 13px;
+}
+
+.passive-card {
+  border-top:
+    6px solid
+    var(--passive);
+}
+
+.aggressive-card {
+  border-top:
+    6px solid
+    var(--aggressive);
+}
+
+.assertive-card {
+  border-top:
+    6px solid
+    var(--assertive);
+}
+
+
+/* =========================================================
+   25. MINI GAME
+========================================================= */
+
+.hand-code-grid {
+  max-width: 760px;
+
+  margin: 0 auto 22px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 15px;
+}
+
+.hand-code {
+  padding: 18px;
+
+  text-align: center;
+
+  border-radius: 20px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.hand-code span {
+  display: block;
+
+  margin-bottom: 6px;
+
+  font-size: 30px;
+}
+
+.hand-code strong {
+  display: block;
+
+  color: var(--brown-800);
+
+  font-size: 20px;
+}
+
+.hand-code small {
+  color: var(--text-soft);
+}
+
+.mini-game-card {
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  padding: 28px;
+
+  text-align: center;
+
+  border-radius: 26px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #fffdf9,
+      #f5ebe3
+    );
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-md);
+}
+
+#miniQuestion {
+  margin: 18px 0;
+
+  color: var(--brown-800);
+
+  font-size:
+    clamp(
+      20px,
+      2.3vw,
+      28px
+    );
+
+  font-weight: 700;
+
+  line-height: 1.55;
+}
+
+#miniAnswer {
+  min-height: 38px;
+
+  margin-top: 14px;
+
+  color: var(--brown-500);
+
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.mini-controls {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 12px;
+
+  margin-top: 16px;
+}
+
+
+/* =========================================================
+   26. SITUATION TAGS
+========================================================= */
+
+.situation-tags {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 12px;
+
+  margin: 34px auto;
+}
+
+.situation-tags span {
+  padding: 12px 17px;
+
+  border-radius: 999px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-xs);
+
+  color: var(--brown-700);
+
+  font-weight: 700;
+}
+
+.ready-card {
+  max-width: 760px;
+
+  margin: 32px auto 0;
+
+  padding: 28px;
+
+  text-align: center;
+
+  border-radius: 26px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #e7d7ca,
+      #fffdf9
+    );
+
+  box-shadow: var(--shadow-md);
+}
+
+.ready-card small {
+  color: var(--brown-500);
+
+  font-size: 9px;
+
+  letter-spacing: 0.13em;
+
+  font-weight: 900;
+}
+
+.ready-card h2 {
+  margin: 6px 0 18px;
+
+  color: var(--brown-800);
+
+  font-size: 30px;
+}
+
+
+/* =========================================================
+   27. MYSTERY BOX
+========================================================= */
+
+.mystery-section {
+  text-align: center;
+}
+
+
+/* AREA UTAMA BOX */
+
+.mystery-scene {
+  position: relative;
+
+  width: min(620px, 90vw);
+  height: 470px;
+
+  margin: 6px auto 0;
+
+  perspective: 1300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* SATU KESATUAN BOX */
+
+.box-object {
+  position: relative;
+
+  width: 430px;
+  height: 410px;
+
+  transform-style: preserve-3d;
+
+  transition:
+    transform 0.18s ease-out;
+}
+
+
+/* =========================================================
+   SHADOW
+========================================================= */
+
+.box-shadow-image {
+  position: absolute;
+
+  z-index: 1;
+
+  left: 50%;
+  bottom: 18px;
+
+  width: 330px;
+
+  transform:
+    translateX(-50%)
+    scaleX(1.08);
+
+  opacity: 0.42;
+
+  pointer-events: none;
+
+  filter: blur(1px);
+}
+
+
+/* =========================================================
+   BODY BOX
+========================================================= */
+
+.box-body-image {
+  position: absolute;
+
+  z-index: 8;
+
+  left: 50%;
+  bottom: 8px;
+
+  width: 365px;
+
+  transform:
+    translateX(-50%);
+
+  cursor: pointer;
+
+  filter:
+    drop-shadow(
+      0 22px 24px
+      rgba(48, 38, 33, 0.22)
+    );
+
+  transition:
+    transform 0.3s ease;
+}
+
+
+/* =========================================================
+   BAGIAN DALAM BOX
+========================================================= */
+
+.box-inside {
+  position: absolute;
+
+  z-index: 6;
+
+  left: 50%;
+  bottom: 235px;
+
+  width: 270px;
+  height: 64px;
+
+  transform:
+    translateX(-50%)
+    scaleY(0.55);
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      ellipse,
+      #050505 0%,
+      #111111 55%,
+      #29231f 100%
+    );
+
+  opacity: 0;
+
+  transition:
+    opacity 0.3s ease;
+}
+
+
+/* =========================================================
+   LID
+   KONDISI AWAL = MENUTUP BOX
+========================================================= */
+
+.box-lid-image {
+  position: absolute;
+  z-index: 12;
+  left: 50%;
+  bottom: 125px;
+  width: 378px;
+  transform: translateX(-50%) translateY(0) rotateX(0deg) rotateZ(0deg);
+  transform-origin: 50% 86%;
+  cursor: pointer;
+  filter: drop-shadow(0 7px 9px rgba(20, 15, 12, 0.18));
+  transition: 
+    transform 0.78s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.35s ease,
+    visibility 0.35s ease;
+}
+
+/* saat dibuka */
+.box-object.opened .box-lid-image {
+  transform: translateX(-50%) translateY(-145px) rotateX(-58deg) rotateZ(-2deg);
+}
+
+/* setelah dibuka, tutup hilang */
+.box-object.hide-lid .box-lid-image {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   GLOW
+========================================================= */
+
+.box-glow-image {
+  position: absolute;
+
+  z-index: 5;
+
+  left: 50%;
+  bottom: 158px;
+
+  width: 380px;
+
+  transform:
+    translateX(-50%)
+    scale(0.55);
+
+  opacity: 0;
+
+  pointer-events: none;
+
+  transition:
+    opacity 0.5s ease,
+    transform 0.6s ease;
+}
+
+
+/* =========================================================
+   BALOK - KONDISI AWAL
+========================================================= */
+
+.flying-block {
+  position: absolute;
+
+  z-index: 7;
+
+  left: 50%;
+  bottom: 230px;
+
+  width: 72px;
+
+  opacity: 0;
+
+  pointer-events: none;
+
+  transform:
+    translateX(-50%)
+    translateY(45px)
+    scale(0.45);
+
+  filter:
+    drop-shadow(
+      0 9px 10px
+      rgba(48, 38, 33, 0.15)
+    );
+
+  transition:
+    transform 0.75s
+    cubic-bezier(
+      0.22,
+      1,
+      0.36,
+      1
+    ),
+    opacity 0.35s ease;
+}
+
+
+/* =========================================================
+   SAAT HOVER SEBELUM DIBUKA
+========================================================= */
+
+.box-object:not(.opened):hover .box-body-image {
+  transform:
+    translateX(-50%)
+    translateY(-3px);
+}
+
+.box-object:not(.opened):hover .box-lid-image {
+  transform:
+    translateX(-50%)
+    translateY(-4px);
+}
+
+
+/* =========================================================
+   OPEN STATE
+========================================================= */
+
+/*
+   Tutup tidak langsung terbang jauh.
+   Dia naik sedikit lalu miring ke belakang.
+*/
+
+.box-object.opened .box-lid-image {
+  transform:
+    translateX(-50%)
+    translateY(-112px)
+    rotateX(-58deg)
+    rotateZ(-2deg);
+}
+
+
+/* Body turun sedikit supaya gerakan terasa alami */
+
+.box-object.opened .box-body-image {
+  transform:
+    translateX(-50%)
+    translateY(4px);
+}
+
+
+/* Bagian dalam baru terlihat */
+
+.box-object.opened .box-inside {
+  opacity: 1;
+}
+
+
+/* Glow muncul dari dalam */
+
+.box-object.opened .box-glow-image {
+  opacity: 0.72;
+
+  transform:
+    translateX(-50%)
+    scale(1);
+}
+
+
+/* =========================================================
+   BALOK KELUAR
+========================================================= */
+
+.box-object.opened .block-fly-1 {
+  opacity: 1;
+
+  transform:
+    translateX(-50%)
+    translate(-128px, -105px)
+    rotate(-9deg)
+    scale(0.95);
+
+  transition-delay: 0.20s;
+}
+
+
+.box-object.opened .block-fly-2 {
+  opacity: 1;
+
+  transform:
+    translateX(-50%)
+    translate(-64px, -155px)
+    rotate(6deg)
+    scale(0.95);
+
+  transition-delay: 0.28s;
+}
+
+
+.box-object.opened .block-fly-3 {
+  opacity: 1;
+
+  transform:
+    translateX(-50%)
+    translate(0, -178px)
+    rotate(-3deg)
+    scale(1);
+
+  transition-delay: 0.36s;
+}
+
+
+.box-object.opened .block-fly-4 {
+  opacity: 1;
+
+  transform:
+    translateX(-50%)
+    translate(64px, -155px)
+    rotate(7deg)
+    scale(0.95);
+
+  transition-delay: 0.44s;
+}
+
+
+.box-object.opened .block-fly-5 {
+  opacity: 1;
+
+  transform:
+    translateX(-50%)
+    translate(128px, -105px)
+    rotate(-6deg)
+    scale(0.95);
+
+  transition-delay: 0.52s;
+}
+
+
+.box-object.opened .block-fly-6 {
+  opacity: 1;
+
+  transform:
+    translateX(-50%)
+    translate(0, -95px)
+    rotate(3deg)
+    scale(0.92);
+
+  transition-delay: 0.60s;
+}
+
+
+/* =========================================================
+   CLICK HINT
+========================================================= */
+
+.mystery-click-hint {
+  position: relative;
+
+  z-index: 20;
+
+  margin-top: -18px;
+
+  color: var(--brown-500);
+
+  font-size: 12px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.02em;
+
+  transition:
+    opacity 0.3s ease;
+}
+
+
+/* =========================================================
+   AFTER OPEN
+========================================================= */
+
+.mystery-after-open {
+  display: none;
+
+  max-width: 720px;
+
+  margin: 10px auto 0;
+
+  padding: 18px 22px;
+
+  border-radius: 20px;
+
+  background:
+    rgba(255, 253, 249, 0.82);
+
+  border:
+    1px solid
+    rgba(90, 64, 51, 0.08);
+
+  box-shadow:
+    0 10px 25px
+    rgba(69, 47, 37, 0.08);
+}
+
+
+.mystery-after-open.show {
+  display: block;
+
+  animation:
+    mysteryTextUp
+    0.45s ease;
+}
+
+
+@keyframes mysteryTextUp {
+
+  from {
+    opacity: 0;
+
+    transform:
+      translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      translateY(0);
+  }
+
+}
+
+
+.mystery-after-open h3 {
+  margin-bottom: 6px;
+
+  color: var(--brown-800);
+
+  font-size: 25px;
+}
+
+
+.mystery-after-open p {
+  margin-bottom: 16px;
+
+  color: var(--text-soft);
+
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   RESPONSIVE MYSTERY BOX
+========================================================= */
+
+@media (max-width: 720px) {
+
+  .mystery-scene {
+    width: 100%;
+    height: 410px;
+  }
+
+  .box-object {
+    width: 360px;
+    height: 360px;
+  }
+
+  .box-body-image {
+    width: 300px;
+    bottom: 10px;
+  }
+
+  .box-lid-image {
+    width: 310px;
+    bottom: 151px;
+  }
+
+  .box-inside {
+    bottom: 202px;
+
+    width: 220px;
+    height: 52px;
+  }
+
+  .box-glow-image {
+    width: 310px;
+
+    bottom: 135px;
+  }
+
+  .flying-block {
+    width: 60px;
+
+    bottom: 200px;
+  }
+
+  .box-object.opened .box-lid-image {
+    transform:
+      translateX(-50%)
+      translateY(-95px)
+      rotateX(-58deg)
+      rotateZ(-2deg);
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .mystery-scene {
+    height: 355px;
+  }
+
+  .box-object {
+    width: 300px;
+    height: 315px;
+  }
+
+  .box-body-image {
+    width: 245px;
+
+    bottom: 8px;
+  }
+
+  .box-lid-image {
+    width: 255px;
+
+    bottom: 129px;
+  }
+
+  .box-inside {
+    bottom: 169px;
+
+    width: 182px;
+    height: 44px;
+  }
+
+  .box-glow-image {
+    width: 260px;
+
+    bottom: 110px;
+  }
+
+  .flying-block {
+    width: 50px;
+
+    bottom: 168px;
+  }
+
+  .box-object.opened .box-lid-image {
+    transform:
+      translateX(-50%)
+      translateY(-78px)
+      rotateX(-56deg)
+      rotateZ(-2deg);
+  }
+
+}
+
+/* =========================================================
+   28. BLOCK GRID
+========================================================= */
+
+.block-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 18px;
+}
+
+.block-item {
+  position: relative;
+  overflow: hidden;
+
+  padding: 16px;
+
+  border: 1px solid var(--border);
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #fffdf9,
+      #f6ece4
+    );
+
+  box-shadow: var(--shadow-sm);
+
+  color: var(--brown-800);
+
+  transition: 0.2s ease;
+}
+
+.block-item:hover {
+  transform: translateY(-5px);
+
+  box-shadow: var(--shadow-md);
+}
+
+.block-item::after {
+  content: "OPEN";
+
+  position: absolute;
+
+  top: 10px;
+  right: 10px;
+
+  padding: 5px 8px;
+
+  border-radius: 999px;
+
+  background:
+    rgba(90, 64, 51, 0.08);
+
+  color: var(--brown-600);
+
+  font-size: 8px;
+  font-weight: 900;
+}
+
+.block-item img {
+  width: 100%;
+  height: 180px;
+
+  object-fit: contain;
+}
+
+.block-item span {
+  display: block;
+
+  margin-top: 10px;
+
+  font-size: 16px;
+  font-weight: 800;
+}
+
+
+/* =========================================================
+   29. SILENT BUILD
+========================================================= */
+
+.silent-layout {
+  display: grid;
+
+  grid-template-columns:
+    0.85fr 1.15fr;
+
+  gap: 24px;
+
+  align-items: stretch;
+
+  margin-top: 24px;
+}
+
+.silent-timer-card,
+.real-block-preview {
+  padding: 24px;
+
+  border-radius: 24px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.silent-timer-card {
+  text-align: center;
+}
+
+.timer-caption {
+  color: var(--brown-500);
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.13em;
+}
+
+.silent-timer {
+  margin: 10px 0 16px;
+
+  color: var(--brown-800);
+
+  font-size:
+    clamp(
+      64px,
+      8vw,
+      100px
+    );
+
+  font-weight: 900;
+
+  letter-spacing: -0.04em;
+}
+
+.timer-actions {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 10px;
+}
+
+#silentMessage {
+  min-height: 28px;
+
+  margin-top: 12px;
+
+  color: var(--brown-500);
+
+  font-weight: 800;
+}
+
+.real-block-preview {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.real-block-preview > span {
+  margin-bottom: 12px;
+
+  color: var(--text-soft);
+
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.real-block-preview img {
+  width:
+    min(400px, 100%);
+
+  max-height: 300px;
+
+  object-fit: contain;
+
+  filter:
+    drop-shadow(
+      0 16px 20px
+      rgba(48, 38, 33, 0.18)
+    );
+}
+
+.silent-allowed {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 9px;
+
+  margin-top: 20px;
+}
+
+.silent-allowed span {
+  padding: 9px 13px;
+
+  border-radius: 999px;
+
+  background: var(--bg-soft);
+
+  color: var(--brown-600);
+
+  font-size: 11px;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   30. TOP BLOCK
+========================================================= */
+
+.top-block-visual {
+  position: relative;
+
+  max-width: 600px;
+
+  margin: 20px auto 0;
+
+  padding: 24px;
+
+  text-align: center;
+
+  border-radius: 24px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #fffdf9,
+      #efe2d7
+    );
+
+  box-shadow: var(--shadow-sm);
+}
+
+.top-block-visual img {
+  width:
+    min(440px, 100%);
+
+  margin: 0 auto;
+
+  object-fit: contain;
+}
+
+.top-block-marker {
+  position: absolute;
+
+  top: 18px;
+  left: 50%;
+
+  transform:
+    translateX(-50%);
+
+  padding: 8px 14px;
+
+  border-radius: 999px;
+
+  background: var(--brown-700);
+
+  color: white;
+
+  font-size: 10px;
+  font-weight: 900;
+
+  letter-spacing: 0.08em;
+
+  box-shadow: var(--shadow-sm);
+}
+
+.top-block-marker span {
+  margin-right: 4px;
+}
+
+
+/* =========================================================
+   31. RANDOM SWITCH
+========================================================= */
+
+.random-card {
+  max-width: 820px;
+
+  margin: 0 auto;
+
+  padding: 28px;
+
+  text-align: center;
+
+  border-radius: 26px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #fffdf9,
+      #f2e7de
+    );
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.pair-result {
+  display: grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap: 16px;
+
+  margin-top: 22px;
+}
+
+.pair-result div {
+  padding: 22px;
+
+  border-radius: 18px;
+
+  background: #fffaf6;
+
+  border: 1px solid var(--border);
+
+  color: var(--brown-800);
+
+  font-size: 20px;
+  font-weight: 900;
+}
+
+
+/* =========================================================
+   32. SECRET STEPS
+========================================================= */
+
+.secret-steps {
+  max-width: 760px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  gap: 12px;
+}
+
+.secret-steps article {
+  display: grid;
+
+  grid-template-columns:
+    46px 1fr;
+
+  align-items: center;
+
+  gap: 14px;
+
+  padding: 14px 17px;
+
+  border-radius: 18px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-xs);
+}
+
+.secret-steps article > span {
+  width: 42px;
+  height: 42px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 13px;
+
+  background: var(--bg-soft);
+
+  color: var(--brown-500);
+
+  font-weight: 900;
+}
+
+.secret-steps p {
+  color: var(--brown-800);
+
+  line-height: 1.55;
+}
+
+.secret-note {
+  max-width: 760px;
+
+  margin: 18px auto 0;
+
+  padding: 12px;
+
+  border-radius: 14px;
+
+  background: var(--brown-700);
+
+  color: white;
+
+  text-align: center;
+
+  font-weight: 800;
+}
+
+
+/* =========================================================
+   33. UNLOCK
+========================================================= */
+
+.unlock-control {
+  max-width: 920px;
+
+  margin: 0 auto 20px;
+
+  display: grid;
+
+  grid-template-columns:
+    1fr 1fr auto;
+
+  gap: 12px;
+
+  align-items: end;
+
+  padding: 20px;
+
+  border-radius: 22px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.unlock-field label {
+  display: block;
+
+  margin-bottom: 6px;
+
+  color: var(--text-soft);
+
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.unlock-field select,
+.unlock-field input {
+  width: 100%;
+
+  padding: 12px 13px;
+
+  border: 1px solid var(--border);
+
+  border-radius: 13px;
+
+  outline: none;
+
+  background: #fff;
+
+  color: var(--brown-800);
+}
+
+.unlock-field select:focus,
+.unlock-field input:focus {
+  border-color: var(--brown-400);
+
+  box-shadow:
+    0 0 0 4px
+    rgba(201, 164, 143, 0.14);
+}
+
+.code-error {
+  min-height: 22px;
+
+  text-align: center;
+
+  color: #a65353;
+
+  font-size: 11px;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   34. CASE GRID
+========================================================= */
+
+.case-grid {
+  display: grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap: 18px;
+}
+
+.case-slot {
+  min-height: 300px;
+
+  position: relative;
+  overflow: hidden;
+
+  border-radius: 24px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #fffdf9,
+      #f5ebe3
+    );
+
+  border:
+    1px dashed
+    var(--brown-300);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.case-locked {
+  min-height: 300px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+}
+
+.case-lock {
+  font-size: 30px;
+}
+
+.case-locked strong {
+  color: var(--brown-800);
+}
+
+.case-locked small {
+  color: var(--text-soft);
+}
+
+.case-content {
+  display: none;
+
+  padding: 18px;
+}
+
+.case-slot.unlocked {
+  border-style: solid;
+}
+
+.case-slot.unlocked .case-locked {
+  display: none;
+}
+
+.case-slot.unlocked .case-content {
+  display: block;
+
+  animation:
+    pageEnter
+    0.3s ease;
+}
+
+.case-content img {
+  width: 100%;
+
+  aspect-ratio:
+    16 / 9;
+
+  object-fit: cover;
+
+  border-radius: 16px;
+
+  margin-bottom: 14px;
+}
+
+.case-code {
+  display: inline-block;
+
+  margin-bottom: 8px;
+
+  padding: 6px 9px;
+
+  border-radius: 999px;
+
+  background: var(--bg-soft);
+
+  color: var(--brown-500);
+
+  font-size: 9px;
+  font-weight: 900;
+}
+
+.case-content h4 {
+  margin-bottom: 7px;
+
+  color: var(--brown-800);
+
+  font-size: 18px;
+}
+
+.case-content p {
+  color: var(--text-soft);
+
+  line-height: 1.6;
+
+  font-size: 12.5px;
+}
+
+
+/* =========================================================
+   35. DISCUSSION
+========================================================= */
+
+.discussion-reminder {
+  max-width: 900px;
+
+  margin: 22px auto 0;
+
+  padding: 18px 22px;
+
+  border-radius: 18px;
+
+  background: var(--bg-soft);
+
+  color: var(--brown-800);
+}
+
+.discussion-reminder strong {
+  display: block;
+
+  margin-bottom: 8px;
+}
+
+.discussion-reminder ol {
+  padding-left: 20px;
+}
+
+.discussion-reminder li {
+  margin: 4px 0;
+
+  line-height: 1.55;
+}
+
+
+/* =========================================================
+   36. PRESENTATION
+========================================================= */
+
+.presentation-page,
+.conclusion-page {
+  text-align: center;
+}
+
+.presentation-groups {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 14px;
+
+  margin: 28px 0;
+}
+
+.presentation-groups span {
+  padding: 22px 10px;
+
+  border-radius: 20px;
+
+  background: var(--bg-card);
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+
+  color: var(--brown-800);
+
+  font-weight: 900;
+}
+
+.share-note {
+  color: var(--text-soft);
+
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.share-note span {
+  padding: 0 7px;
+}
+
+
+/* =========================================================
+   37. QUICK CHECK
+========================================================= */
+
+.quiz-card {
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  padding: 26px;
+
+  border-radius: 24px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #fffdf9,
+      #f5ebe3
+    );
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.quiz-question {
+  margin: 18px 0;
+
+  color: var(--brown-800);
+
+  font-size: 20px;
+  font-weight: 700;
+
+  line-height: 1.55;
+}
+
+.quiz-options {
+  display: grid;
+
+  gap: 10px;
+}
+
+.quiz-option {
+  width: 100%;
+
+  padding: 13px 15px;
+
+  border: 1px solid var(--border);
+
+  border-radius: 14px;
+
+  background: white;
+
+  color: var(--brown-800);
+
+  text-align: left;
+
+  font-weight: 600;
+
+  transition: 0.18s ease;
+}
+
+.quiz-option:hover {
+  background: var(--bg-soft);
+
+  transform: translateY(-1px);
+}
+
+.quiz-feedback {
+  min-height: 44px;
+
+  display: flex;
+
+  align-items: center;
+
+  margin-top: 10px;
+
+  color: var(--brown-500);
+
+  font-size: 22px;
+  font-weight: 900;
+}
+
+
+/* =========================================================
+   38. CONCLUSION
+========================================================= */
+
+.student-conclusion {
+  max-width: 780px;
+
+  margin: 20px auto;
+
+  padding: 18px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  border-radius: 18px;
+
+  background: var(--bg-soft);
+}
+
+.student-conclusion > span {
+  font-size: 25px;
+}
+
+.teacher-conclusion {
+  max-width: 850px;
+
+  margin: 0 auto;
+
+  padding: 24px;
+
+  border-radius: 24px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #fffdf9,
+      #eee0d4
+    );
+
+  border: 1px solid var(--border);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.teacher-conclusion small {
+  color: var(--brown-500);
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.13em;
+}
+
+.teacher-conclusion p {
+  margin: 10px 0;
+
+  color: var(--text-soft);
+
+  line-height: 1.7;
+}
+
+.teacher-conclusion strong {
+  color: var(--brown-800);
+}
+
+
+/* =========================================================
+   39. CLOSING
+========================================================= */
+
+.closing-card {
+  min-height:
+    calc(100vh - 150px);
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 42px;
+
+  text-align: center;
+
+  border-radius: 34px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #e7d7ca,
+      #fffdf9
+    );
+
+  box-shadow: var(--shadow-md);
+}
+
+.closing-card h1 {
+  margin: 8px 0 22px;
+
+  color: var(--brown-800);
+
+  font-size:
+    clamp(
+      52px,
+      7vw,
+      88px
+    );
+
+  line-height: 0.98;
+}
+
+.closing-quote {
+  padding: 18px 24px;
+
+  border-radius: 18px;
+
+  background:
+    rgba(255, 255, 255, 0.68);
+
+  color: var(--brown-700);
+
+  line-height: 1.7;
+
+  font-weight: 700;
+}
+
+.closing-card > p {
+  margin: 20px 0;
+
+  color: var(--brown-500);
+
+  font-style: italic;
+}
+
+
+/* =========================================================
+   40. MODAL
+========================================================= */
+
+.block-modal,
+.document-modal {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 3000;
+
+  display: none;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 22px;
+
+  background:
+    rgba(48, 38, 33, 0.5);
+
+  backdrop-filter:
+    blur(5px);
+}
+
+.block-modal.show,
+.document-modal.show {
+  display: flex;
+}
+
+.block-modal-panel,
+.document-modal-panel {
+  position: relative;
+
+  width:
+    min(720px, 94vw);
+
+  max-height: 92vh;
+
+  overflow-y: auto;
+
+  padding: 28px;
+
+  border-radius: 28px;
+
+  background: var(--bg-card);
+
+  box-shadow: var(--shadow-lg);
+
+  animation:
+    modalPop
+    0.25s ease;
+}
+
+@keyframes modalPop {
+
+  from {
+    opacity: 0;
+
+    transform:
+      translateY(14px)
+      scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      translateY(0)
+      scale(1);
+  }
+
+}
+
+.modal-close {
+  width: 40px;
+  height: 40px;
+
+  display: grid;
+
+  place-items: center;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: var(--bg-soft);
+
+  color: var(--brown-700);
+
+  font-size: 23px;
+}
+
+.block-modal-panel > .modal-close {
+  position: absolute;
+
+  top: 16px;
+  right: 16px;
+}
+
+.block-modal-panel h2 {
+  margin-bottom: 10px;
+
+  padding-right: 50px;
+
+  color: var(--brown-800);
+}
+
+.block-modal-meaning {
+  color: var(--text-soft);
+
+  line-height: 1.7;
+}
+
+.block-detail-grid {
+  display: grid;
+
+  gap: 12px;
+
+  margin-top: 18px;
+}
+
+.block-detail-grid > div {
+  padding: 14px 16px;
+
+  border-radius: 15px;
+
+  background: var(--bg-main);
+}
+
+.block-detail-grid small {
+  color: var(--brown-500);
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.12em;
+}
+
+.block-detail-grid p {
+  margin-top: 5px;
+
+  color: var(--text-soft);
+
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   41. DOCUMENT MODAL
+========================================================= */
+
+.document-modal-panel {
+  width:
+    min(900px, 96vw);
+}
+
+.document-modal-top {
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: space-between;
+
+  gap: 16px;
+
+  margin-bottom: 16px;
+}
+
+.document-modal-top span {
+  color: var(--brown-500);
+
+  font-size: 9px;
+  font-weight: 900;
+
+  letter-spacing: 0.13em;
+}
+
+.document-modal-top h2 {
+  margin-top: 3px;
+
+  color: var(--brown-800);
+}
+
+.document-viewer {
+  padding: 12px;
+
+  border-radius: 18px;
+
+  background: var(--bg-main);
+}
+
+.document-viewer img {
+  width: 100%;
+
+  max-height: 75vh;
+
+  object-fit: contain;
+
+  margin: 0 auto;
+
+  border-radius: 10px;
+}
+
+
+/* =========================================================
+   42. RESPONSIVE
+========================================================= */
+
+@media (max-width: 1050px) {
+
+  .hero-layout {
+    grid-template-columns:
+      1fr;
+  }
+
+  .hero-visual {
+    min-height: 330px;
+  }
+
+  .goal-grid,
+  .apersepsi-grid,
+  .style-grid,
+  .block-grid {
+    grid-template-columns:
+      1fr 1fr;
+  }
+
+  .learning-flow {
+    flex-wrap: wrap;
+  }
+
+  .flow-step {
+    min-width: 220px;
+  }
+
+  .flow-line {
+    display: none;
+  }
+
+  .agreement-grid,
+  .benefit-grid {
+    grid-template-columns:
+      1fr 1fr;
+  }
+
+  .movement-grid {
+    grid-template-columns:
+      1fr 1fr;
+  }
+
+  .silent-layout {
+    grid-template-columns:
+      1fr;
+  }
+
+  .unlock-control {
+    grid-template-columns:
+      1fr 1fr;
+  }
+
+  .unlock-control > button {
+    grid-column:
+      span 2;
+  }
+
+}
+
+
+@media (max-width: 720px) {
+
+  .sidebar-toggle {
+    top: 14px;
+    left: 14px;
+  }
+
+  .sidebar {
+    width:
+      min(88vw, 310px);
+  }
+
+  .page {
+    width: 92%;
+
+    padding:
+      78px 0 40px;
+  }
+
+  .section-card,
+  .hero-card,
+  .transition-card,
+  .closing-card {
+    padding: 22px;
+
+    border-radius: 24px;
+  }
+
+  .hero-text h1 {
+    font-size: 42px;
+  }
+
+  .hero-visual {
+    min-height: 260px;
+  }
+
+  .goal-grid,
+  .apersepsi-grid,
+  .agreement-grid,
+  .benefit-grid,
+  .style-grid,
+  .block-grid,
+  .reflection-grid,
+  .hand-code-grid,
+  .case-grid,
+  .pair-result {
+    grid-template-columns:
+      1fr;
+  }
+
+  .movement-grid {
+    grid-template-columns:
+      1fr 1fr;
+  }
+
+  .presentation-groups {
+    grid-template-columns:
+      1fr 1fr;
+  }
+
+  .unlock-control {
+    grid-template-columns:
+      1fr;
+  }
+
+  .unlock-control > button {
+    grid-column:
+      auto;
+  }
+
+  .page-navigation {
+    flex-direction:
+      column-reverse;
+
+    align-items:
+      stretch;
+  }
+
+  .page-navigation button {
+    width: 100%;
+  }
+
+  .chat-stage {
+    padding: 22px;
+  }
+
+  .chat-bubble {
+    font-size: 28px;
+  }
+
+  .mystery-scene {
+    height: 410px;
+  }
+
+  .box-body-image {
+    width: 255px;
+    bottom: 38px;
+  }
+
+  .box-lid-image {
+    width: 265px;
+    bottom: 177px;
+  }
+
+  .box-inside {
+    bottom: 172px;
+    width: 200px;
+    height: 54px;
+  }
+
+  .flying-block {
+    width: 65px;
+    bottom: 168px;
+  }
+
+  .document-tool {
+    padding: 14px;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .movement-grid,
+  .presentation-groups {
+    grid-template-columns:
+      1fr;
+  }
+
+  .hero-tagline {
+    font-size: 17px;
+  }
+
+  .page-title {
+    font-size: 32px;
+  }
+
+  .big-time-number {
+    font-size: 100px;
+  }
+
+  .chat-controls {
+    flex-wrap: wrap;
+  }
+
+  .chat-controls button {
+    flex:
+      1 1 42%;
+  }
+
+  .mystery-scene {
+    height: 360px;
+  }
+
+  .box-body-image {
+    width: 220px;
+    bottom: 30px;
+  }
+
+  .box-lid-image {
+    width: 230px;
+    bottom: 150px;
+  }
+
+  .box-inside {
+    bottom: 145px;
+    width: 172px;
+    height: 48px;
+  }
+
+  .flying-block {
+    width: 56px;
+    bottom: 145px;
+  }
+
+  .document-tool-text strong {
+    font-size: 15px;
+  }
+
+}
